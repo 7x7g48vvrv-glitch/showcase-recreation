@@ -1,8 +1,9 @@
-# Tonhaute Labs — first branding pass
+# Tonhaute Labs branding and content direction
 
-Palette sampled visually from the supplied brand reference: charcoal #101112, red #C91628, white #FFFFFF.
+Charcoal #101112, red #C91628, white #FFFFFF, visually sampled from the supplied brand reference. The company shell, intro, navigation and closing/demo section use this palette. Service cards retain the original individual colourful gradients, holographic foil, icons and glare.
 
-Brand shell, hero, navigation, chapter headers, cards, controls and form styling updated. The TH monogram is a vector reconstruction for this preview; replace it with the official vector artwork when supplied. Product/service content, proof points and photography remain from the reference until the content phase. All existing animation code remains intact.
+The TH monogram is a vector reconstruction for this preview. Replace it with official artwork when supplied.
 
-## Service card direction
-Restore the original individual card gradients, holographic foil, icons and glare. These colours become the basis for service-specific identities in the content phase. The surrounding site, intro and closing/demo section retain the charcoal, white and red brand palette.
+Fourteen service cards represent the user-approved offering. Company facts and selected portfolio names are sourced from the Canva company portfolio; the new service descriptions explain the user's service list without inventing performance claims. Each chapter has an overview, deliverables, a three-step walkthrough, engagement guidance, booking CTA and next service.
+
+The booking brief can be completed, reviewed and downloaded. Live Stripe payments and enquiry submission remain disabled until pricing, currency, the Stripe connection and a lead destination are supplied.
