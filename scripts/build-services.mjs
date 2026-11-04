@@ -11,4 +11,4 @@ for (const service of data) {
   if (service.cta?.href?.includes('8am.com')) throw new Error('Reference-company CTA remains');
 }
 fs.writeFileSync(path.join(root, 'dist/services/catalog.js'), `export const services = ${JSON.stringify(data)};\n`);
-console.log('Verified 14 services, their chapter content and 28 local visual assets.');
+console.log('Verified 14 services, chapter content, icons and corporate photo assets.');

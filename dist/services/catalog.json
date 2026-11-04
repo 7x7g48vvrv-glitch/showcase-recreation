@@ -15,7 +15,7 @@
     "lightText": false,
     "icon": "/services/automation-icon.svg",
     "deckIcon": "/services/automation-icon.svg",
-    "image": "/services/automation-visual.svg",
+    "image": "/services/photos/ai.jpg",
     "deliverables": [
       "AI agents & assistants",
       "Customer support chatbots",
@@ -38,11 +38,12 @@
           "props": {
             "overlap": "bleed",
             "category": "AI & Intelligent Automation",
-            "image": "/services/automation-visual.svg",
-            "imageAlt": "Illustrated ai & intelligent automation delivery workflow",
+            "image": "/services/photos/ai.jpg",
+            "imageAlt": "Illustrative corporate ai & intelligent automation scene",
             "heading": "AI that works\nwith your business.",
             "tldrLabel": "Put repetitive work on autopilot",
-            "tldrBody": "AI agents, chatbots and connected workflows that help your team spend less time on repetitive tasks and more time on work that matters."
+            "tldrBody": "AI agents, chatbots and connected workflows that help your team spend less time on repetitive tasks and more time on work that matters.",
+            "imageFocus": "center"
           }
         },
         {
@@ -74,8 +75,8 @@
                 "body": "We identify repetitive tasks, data sources and the decisions that need human review.",
                 "media": {
                   "type": "image",
-                  "src": "/services/automation-visual.svg",
-                  "alt": "Map your workflow: AI & Intelligent Automation"
+                  "src": "/services/photos/ai.jpg",
+                  "alt": "Illustrative ai & intelligent automation collaboration"
                 }
               },
               {
@@ -83,8 +84,8 @@
                 "body": "We connect your approved systems, design useful conversations and build workflows around your team.",
                 "media": {
                   "type": "image",
-                  "src": "/services/automation-visual.svg",
-                  "alt": "Connect your tools: AI & Intelligent Automation"
+                  "src": "/services/photos/ai.jpg",
+                  "alt": "Illustrative ai & intelligent automation collaboration"
                 }
               },
               {
@@ -92,8 +93,8 @@
                 "body": "We test edge cases, document handovers and review the workflow against your agreed success measures.",
                 "media": {
                   "type": "image",
-                  "src": "/services/automation-visual.svg",
-                  "alt": "Test, launch and improve: AI & Intelligent Automation"
+                  "src": "/services/photos/ai.jpg",
+                  "alt": "Illustrative ai & intelligent automation collaboration"
                 }
               }
             ]
@@ -137,11 +138,12 @@
         "props": {
           "overlap": "bleed",
           "category": "AI & Intelligent Automation",
-          "image": "/services/automation-visual.svg",
-          "imageAlt": "Illustrated ai & intelligent automation delivery workflow",
+          "image": "/services/photos/ai.jpg",
+          "imageAlt": "Illustrative corporate ai & intelligent automation scene",
           "heading": "AI that works\nwith your business.",
           "tldrLabel": "Put repetitive work on autopilot",
-          "tldrBody": "AI agents, chatbots and connected workflows that help your team spend less time on repetitive tasks and more time on work that matters."
+          "tldrBody": "AI agents, chatbots and connected workflows that help your team spend less time on repetitive tasks and more time on work that matters.",
+          "imageFocus": "center"
         }
       },
       {
@@ -173,8 +175,8 @@
               "body": "We identify repetitive tasks, data sources and the decisions that need human review.",
               "media": {
                 "type": "image",
-                "src": "/services/automation-visual.svg",
-                "alt": "Map your workflow: AI & Intelligent Automation"
+                "src": "/services/photos/ai.jpg",
+                "alt": "Illustrative ai & intelligent automation collaboration"
               }
             },
             {
@@ -182,8 +184,8 @@
               "body": "We connect your approved systems, design useful conversations and build workflows around your team.",
               "media": {
                 "type": "image",
-                "src": "/services/automation-visual.svg",
-                "alt": "Connect your tools: AI & Intelligent Automation"
+                "src": "/services/photos/ai.jpg",
+                "alt": "Illustrative ai & intelligent automation collaboration"
               }
             },
             {
@@ -191,8 +193,8 @@
               "body": "We test edge cases, document handovers and review the workflow against your agreed success measures.",
               "media": {
                 "type": "image",
-                "src": "/services/automation-visual.svg",
-                "alt": "Test, launch and improve: AI & Intelligent Automation"
+                "src": "/services/photos/ai.jpg",
+                "alt": "Illustrative ai & intelligent automation collaboration"
               }
             }
           ]
@@ -231,7 +233,7 @@
     ],
     "intro": {
       "overlap": "bleed",
-      "image": "/services/automation-visual.svg"
+      "image": "/services/photos/ai.jpg"
     }
   },
   {
@@ -250,7 +252,7 @@
     "lightText": false,
     "icon": "/services/website-icon.svg",
     "deckIcon": "/services/website-icon.svg",
-    "image": "/services/website-visual.svg",
+    "image": "/services/photos/website.jpg",
     "deliverables": [
       "Corporate & brand websites",
       "Animated landing pages",
@@ -273,11 +275,12 @@
           "props": {
             "overlap": "bleed",
             "category": "Website Design & Development",
-            "image": "/services/website-visual.svg",
-            "imageAlt": "Illustrated website design & development delivery workflow",
+            "image": "/services/photos/website.jpg",
+            "imageAlt": "Illustrative corporate website design & development scene",
             "heading": "A better first\nimpression. Built in.",
             "tldrLabel": "Turn your website into your best pitch",
-            "tldrBody": "Corporate websites, premium animated experiences and e-commerce stores designed around your brand, your customers and the actions you want them to take."
+            "tldrBody": "Corporate websites, premium animated experiences and e-commerce stores designed around your brand, your customers and the actions you want them to take.",
+            "imageFocus": "center"
           }
         },
         {
@@ -309,8 +312,8 @@
                 "body": "We define your audience, content structure and the conversion journey before designing.",
                 "media": {
                   "type": "image",
-                  "src": "/services/website-visual.svg",
-                  "alt": "Discover the experience: Website Design & Development"
+                  "src": "/services/photos/website.jpg",
+                  "alt": "Illustrative website design & development collaboration"
                 }
               },
               {
@@ -318,8 +321,8 @@
                 "body": "We shape the visual system, key pages and motion around a clear story.",
                 "media": {
                   "type": "image",
-                  "src": "/services/website-visual.svg",
-                  "alt": "Design with intent: Website Design & Development"
+                  "src": "/services/photos/website.jpg",
+                  "alt": "Illustrative website design & development collaboration"
                 }
               },
               {
@@ -327,8 +330,8 @@
                 "body": "We develop, check responsive behaviour and prepare the site for launch and ongoing updates.",
                 "media": {
                   "type": "image",
-                  "src": "/services/website-visual.svg",
-                  "alt": "Build for every screen: Website Design & Development"
+                  "src": "/services/photos/website.jpg",
+                  "alt": "Illustrative website design & development collaboration"
                 }
               }
             ]
@@ -372,11 +375,12 @@
         "props": {
           "overlap": "bleed",
           "category": "Website Design & Development",
-          "image": "/services/website-visual.svg",
-          "imageAlt": "Illustrated website design & development delivery workflow",
+          "image": "/services/photos/website.jpg",
+          "imageAlt": "Illustrative corporate website design & development scene",
           "heading": "A better first\nimpression. Built in.",
           "tldrLabel": "Turn your website into your best pitch",
-          "tldrBody": "Corporate websites, premium animated experiences and e-commerce stores designed around your brand, your customers and the actions you want them to take."
+          "tldrBody": "Corporate websites, premium animated experiences and e-commerce stores designed around your brand, your customers and the actions you want them to take.",
+          "imageFocus": "center"
         }
       },
       {
@@ -408,8 +412,8 @@
               "body": "We define your audience, content structure and the conversion journey before designing.",
               "media": {
                 "type": "image",
-                "src": "/services/website-visual.svg",
-                "alt": "Discover the experience: Website Design & Development"
+                "src": "/services/photos/website.jpg",
+                "alt": "Illustrative website design & development collaboration"
               }
             },
             {
@@ -417,8 +421,8 @@
               "body": "We shape the visual system, key pages and motion around a clear story.",
               "media": {
                 "type": "image",
-                "src": "/services/website-visual.svg",
-                "alt": "Design with intent: Website Design & Development"
+                "src": "/services/photos/website.jpg",
+                "alt": "Illustrative website design & development collaboration"
               }
             },
             {
@@ -426,8 +430,8 @@
               "body": "We develop, check responsive behaviour and prepare the site for launch and ongoing updates.",
               "media": {
                 "type": "image",
-                "src": "/services/website-visual.svg",
-                "alt": "Build for every screen: Website Design & Development"
+                "src": "/services/photos/website.jpg",
+                "alt": "Illustrative website design & development collaboration"
               }
             }
           ]
@@ -466,7 +470,7 @@
     ],
     "intro": {
       "overlap": "bleed",
-      "image": "/services/website-visual.svg"
+      "image": "/services/photos/website.jpg"
     }
   },
   {
@@ -485,7 +489,7 @@
     "lightText": false,
     "icon": "/services/application-icon.svg",
     "deckIcon": "/services/application-icon.svg",
-    "image": "/services/application-visual.svg",
+    "image": "/services/photos/software.jpg",
     "deliverables": [
       "Web & mobile applications",
       "SaaS product development",
@@ -508,11 +512,12 @@
           "props": {
             "overlap": "bleed",
             "category": "Software & Application Development",
-            "image": "/services/application-visual.svg",
-            "imageAlt": "Illustrated software & application development delivery workflow",
+            "image": "/services/photos/software.jpg",
+            "imageAlt": "Illustrative corporate software & application development scene",
             "heading": "Build the software\nyour business needs.",
             "tldrLabel": "From your idea to a working product",
-            "tldrBody": "Web applications, mobile apps, SaaS platforms, ERP and CRM solutions built around the way your business actually works."
+            "tldrBody": "Web applications, mobile apps, SaaS platforms, ERP and CRM solutions built around the way your business actually works.",
+            "imageFocus": "center"
           }
         },
         {
@@ -544,8 +549,8 @@
                 "body": "We turn your requirements into user journeys, priorities and a practical delivery scope.",
                 "media": {
                   "type": "image",
-                  "src": "/services/application-visual.svg",
-                  "alt": "Define the product: Software & Application Development"
+                  "src": "/services/photos/software.jpg",
+                  "alt": "Illustrative software & application development collaboration"
                 }
               },
               {
@@ -553,8 +558,8 @@
                 "body": "We develop the core experience in reviewable stages, with your feedback built into the process.",
                 "media": {
                   "type": "image",
-                  "src": "/services/application-visual.svg",
-                  "alt": "Build in clear stages: Software & Application Development"
+                  "src": "/services/photos/software.jpg",
+                  "alt": "Illustrative software & application development collaboration"
                 }
               },
               {
@@ -562,8 +567,8 @@
                 "body": "We test key journeys, prepare deployment and document how the product is maintained.",
                 "media": {
                   "type": "image",
-                  "src": "/services/application-visual.svg",
-                  "alt": "Release with confidence: Software & Application Development"
+                  "src": "/services/photos/software.jpg",
+                  "alt": "Illustrative software & application development collaboration"
                 }
               }
             ]
@@ -607,11 +612,12 @@
         "props": {
           "overlap": "bleed",
           "category": "Software & Application Development",
-          "image": "/services/application-visual.svg",
-          "imageAlt": "Illustrated software & application development delivery workflow",
+          "image": "/services/photos/software.jpg",
+          "imageAlt": "Illustrative corporate software & application development scene",
           "heading": "Build the software\nyour business needs.",
           "tldrLabel": "From your idea to a working product",
-          "tldrBody": "Web applications, mobile apps, SaaS platforms, ERP and CRM solutions built around the way your business actually works."
+          "tldrBody": "Web applications, mobile apps, SaaS platforms, ERP and CRM solutions built around the way your business actually works.",
+          "imageFocus": "center"
         }
       },
       {
@@ -643,8 +649,8 @@
               "body": "We turn your requirements into user journeys, priorities and a practical delivery scope.",
               "media": {
                 "type": "image",
-                "src": "/services/application-visual.svg",
-                "alt": "Define the product: Software & Application Development"
+                "src": "/services/photos/software.jpg",
+                "alt": "Illustrative software & application development collaboration"
               }
             },
             {
@@ -652,8 +658,8 @@
               "body": "We develop the core experience in reviewable stages, with your feedback built into the process.",
               "media": {
                 "type": "image",
-                "src": "/services/application-visual.svg",
-                "alt": "Build in clear stages: Software & Application Development"
+                "src": "/services/photos/software.jpg",
+                "alt": "Illustrative software & application development collaboration"
               }
             },
             {
@@ -661,8 +667,8 @@
               "body": "We test key journeys, prepare deployment and document how the product is maintained.",
               "media": {
                 "type": "image",
-                "src": "/services/application-visual.svg",
-                "alt": "Release with confidence: Software & Application Development"
+                "src": "/services/photos/software.jpg",
+                "alt": "Illustrative software & application development collaboration"
               }
             }
           ]
@@ -701,7 +707,7 @@
     ],
     "intro": {
       "overlap": "bleed",
-      "image": "/services/application-visual.svg"
+      "image": "/services/photos/software.jpg"
     }
   },
   {
@@ -720,7 +726,7 @@
     "lightText": false,
     "icon": "/services/design-icon.svg",
     "deckIcon": "/services/design-icon.svg",
-    "image": "/services/design-visual.svg",
+    "image": "/services/photos/design.jpg",
     "deliverables": [
       "UX research & user journeys",
       "Interface & interaction design",
@@ -743,11 +749,12 @@
           "props": {
             "overlap": "bleed",
             "category": "UI/UX & Product Design",
-            "image": "/services/design-visual.svg",
-            "imageAlt": "Illustrated ui/ux & product design delivery workflow",
+            "image": "/services/photos/design.jpg",
+            "imageAlt": "Illustrative corporate ui/ux & product design scene",
             "heading": "Less friction.\nMore possibility.",
             "tldrLabel": "Make every interaction count",
-            "tldrBody": "User research, interface design and interactive prototypes that turn complex product ideas into clear, usable experiences."
+            "tldrBody": "User research, interface design and interactive prototypes that turn complex product ideas into clear, usable experiences.",
+            "imageFocus": "center"
           }
         },
         {
@@ -779,8 +786,8 @@
                 "body": "We explore user needs, important tasks and friction in the current experience.",
                 "media": {
                   "type": "image",
-                  "src": "/services/design-visual.svg",
-                  "alt": "Understand your users: UI/UX & Product Design"
+                  "src": "/services/photos/design.jpg",
+                  "alt": "Illustrative ui/ux & product design collaboration"
                 }
               },
               {
@@ -788,8 +795,8 @@
                 "body": "We test page structure and interactions through wireframes and clickable prototypes.",
                 "media": {
                   "type": "image",
-                  "src": "/services/design-visual.svg",
-                  "alt": "Prototype the journey: UI/UX & Product Design"
+                  "src": "/services/photos/design.jpg",
+                  "alt": "Illustrative ui/ux & product design collaboration"
                 }
               },
               {
@@ -797,8 +804,8 @@
                 "body": "We deliver coherent screens, reusable components and a handoff your development team can use.",
                 "media": {
                   "type": "image",
-                  "src": "/services/design-visual.svg",
-                  "alt": "Create a system: UI/UX & Product Design"
+                  "src": "/services/photos/design.jpg",
+                  "alt": "Illustrative ui/ux & product design collaboration"
                 }
               }
             ]
@@ -842,11 +849,12 @@
         "props": {
           "overlap": "bleed",
           "category": "UI/UX & Product Design",
-          "image": "/services/design-visual.svg",
-          "imageAlt": "Illustrated ui/ux & product design delivery workflow",
+          "image": "/services/photos/design.jpg",
+          "imageAlt": "Illustrative corporate ui/ux & product design scene",
           "heading": "Less friction.\nMore possibility.",
           "tldrLabel": "Make every interaction count",
-          "tldrBody": "User research, interface design and interactive prototypes that turn complex product ideas into clear, usable experiences."
+          "tldrBody": "User research, interface design and interactive prototypes that turn complex product ideas into clear, usable experiences.",
+          "imageFocus": "center"
         }
       },
       {
@@ -878,8 +886,8 @@
               "body": "We explore user needs, important tasks and friction in the current experience.",
               "media": {
                 "type": "image",
-                "src": "/services/design-visual.svg",
-                "alt": "Understand your users: UI/UX & Product Design"
+                "src": "/services/photos/design.jpg",
+                "alt": "Illustrative ui/ux & product design collaboration"
               }
             },
             {
@@ -887,8 +895,8 @@
               "body": "We test page structure and interactions through wireframes and clickable prototypes.",
               "media": {
                 "type": "image",
-                "src": "/services/design-visual.svg",
-                "alt": "Prototype the journey: UI/UX & Product Design"
+                "src": "/services/photos/design.jpg",
+                "alt": "Illustrative ui/ux & product design collaboration"
               }
             },
             {
@@ -896,8 +904,8 @@
               "body": "We deliver coherent screens, reusable components and a handoff your development team can use.",
               "media": {
                 "type": "image",
-                "src": "/services/design-visual.svg",
-                "alt": "Create a system: UI/UX & Product Design"
+                "src": "/services/photos/design.jpg",
+                "alt": "Illustrative ui/ux & product design collaboration"
               }
             }
           ]
@@ -936,7 +944,7 @@
     ],
     "intro": {
       "overlap": "bleed",
-      "image": "/services/design-visual.svg"
+      "image": "/services/photos/design.jpg"
     }
   },
   {
@@ -954,7 +962,7 @@
     "lightText": false,
     "icon": "/services/growth-icon.svg",
     "deckIcon": "/services/growth-icon.svg",
-    "image": "/services/growth-visual.svg",
+    "image": "/services/photos/growth.jpg",
     "deliverables": [
       "SEO & organic visibility",
       "Paid search & social campaigns",
@@ -977,11 +985,12 @@
           "props": {
             "overlap": "bleed",
             "category": "Digital Marketing & Growth",
-            "image": "/services/growth-visual.svg",
-            "imageAlt": "Illustrated digital marketing & growth delivery workflow",
+            "image": "/services/photos/growth.jpg",
+            "imageAlt": "Illustrative corporate digital marketing & growth scene",
             "heading": "Make growth\na deliberate process.",
             "tldrLabel": "Reach the people who matter",
-            "tldrBody": "SEO, performance marketing, social media and conversion optimisation that connect your brand with relevant audiences."
+            "tldrBody": "SEO, performance marketing, social media and conversion optimisation that connect your brand with relevant audiences.",
+            "imageFocus": "center"
           }
         },
         {
@@ -1013,8 +1022,8 @@
                 "body": "We align the audience, offer, channels and measurement with your business goals.",
                 "media": {
                   "type": "image",
-                  "src": "/services/growth-visual.svg",
-                  "alt": "Set a clear direction: Digital Marketing & Growth"
+                  "src": "/services/photos/growth.jpg",
+                  "alt": "Illustrative digital marketing & growth collaboration"
                 }
               },
               {
@@ -1022,8 +1031,8 @@
                 "body": "We develop campaign messaging, creative and landing-page recommendations around a consistent journey.",
                 "media": {
                   "type": "image",
-                  "src": "/services/growth-visual.svg",
-                  "alt": "Launch connected campaigns: Digital Marketing & Growth"
+                  "src": "/services/photos/growth.jpg",
+                  "alt": "Illustrative digital marketing & growth collaboration"
                 }
               },
               {
@@ -1031,8 +1040,8 @@
                 "body": "We review performance and refine the targeting, creative and experience as the campaign develops.",
                 "media": {
                   "type": "image",
-                  "src": "/services/growth-visual.svg",
-                  "alt": "Learn and optimise: Digital Marketing & Growth"
+                  "src": "/services/photos/growth.jpg",
+                  "alt": "Illustrative digital marketing & growth collaboration"
                 }
               }
             ]
@@ -1076,11 +1085,12 @@
         "props": {
           "overlap": "bleed",
           "category": "Digital Marketing & Growth",
-          "image": "/services/growth-visual.svg",
-          "imageAlt": "Illustrated digital marketing & growth delivery workflow",
+          "image": "/services/photos/growth.jpg",
+          "imageAlt": "Illustrative corporate digital marketing & growth scene",
           "heading": "Make growth\na deliberate process.",
           "tldrLabel": "Reach the people who matter",
-          "tldrBody": "SEO, performance marketing, social media and conversion optimisation that connect your brand with relevant audiences."
+          "tldrBody": "SEO, performance marketing, social media and conversion optimisation that connect your brand with relevant audiences.",
+          "imageFocus": "center"
         }
       },
       {
@@ -1112,8 +1122,8 @@
               "body": "We align the audience, offer, channels and measurement with your business goals.",
               "media": {
                 "type": "image",
-                "src": "/services/growth-visual.svg",
-                "alt": "Set a clear direction: Digital Marketing & Growth"
+                "src": "/services/photos/growth.jpg",
+                "alt": "Illustrative digital marketing & growth collaboration"
               }
             },
             {
@@ -1121,8 +1131,8 @@
               "body": "We develop campaign messaging, creative and landing-page recommendations around a consistent journey.",
               "media": {
                 "type": "image",
-                "src": "/services/growth-visual.svg",
-                "alt": "Launch connected campaigns: Digital Marketing & Growth"
+                "src": "/services/photos/growth.jpg",
+                "alt": "Illustrative digital marketing & growth collaboration"
               }
             },
             {
@@ -1130,8 +1140,8 @@
               "body": "We review performance and refine the targeting, creative and experience as the campaign develops.",
               "media": {
                 "type": "image",
-                "src": "/services/growth-visual.svg",
-                "alt": "Learn and optimise: Digital Marketing & Growth"
+                "src": "/services/photos/growth.jpg",
+                "alt": "Illustrative digital marketing & growth collaboration"
               }
             }
           ]
@@ -1170,7 +1180,7 @@
     ],
     "intro": {
       "overlap": "bleed",
-      "image": "/services/growth-visual.svg"
+      "image": "/services/photos/growth.jpg"
     }
   },
   {
@@ -1189,7 +1199,7 @@
     "lightText": false,
     "icon": "/services/branding-icon.svg",
     "deckIcon": "/services/branding-icon.svg",
-    "image": "/services/branding-visual.svg",
+    "image": "/services/photos/branding.jpg",
     "deliverables": [
       "Brand strategy & positioning",
       "Logo & visual identity",
@@ -1212,11 +1222,12 @@
           "props": {
             "overlap": "bleed",
             "category": "Branding & Creative Solutions",
-            "image": "/services/branding-visual.svg",
-            "imageAlt": "Illustrated branding & creative solutions delivery workflow",
+            "image": "/services/photos/branding.jpg",
+            "imageAlt": "Illustrative corporate branding & creative solutions scene",
             "heading": "A clear identity.\nA stronger presence.",
             "tldrLabel": "Build a brand people recognise",
-            "tldrBody": "Brand strategy, positioning and visual identity that help your business stand out and show up consistently across digital touchpoints."
+            "tldrBody": "Brand strategy, positioning and visual identity that help your business stand out and show up consistently across digital touchpoints.",
+            "imageFocus": "center"
           }
         },
         {
@@ -1248,8 +1259,8 @@
                 "body": "We clarify your audience, brand personality and what makes your business distinctive.",
                 "media": {
                   "type": "image",
-                  "src": "/services/branding-visual.svg",
-                  "alt": "Find your point of view: Branding & Creative Solutions"
+                  "src": "/services/photos/branding.jpg",
+                  "alt": "Illustrative branding & creative solutions collaboration"
                 }
               },
               {
@@ -1257,8 +1268,8 @@
                 "body": "We translate that direction into a visual language, from logo and colour to typography and layout.",
                 "media": {
                   "type": "image",
-                  "src": "/services/branding-visual.svg",
-                  "alt": "Build the identity: Branding & Creative Solutions"
+                  "src": "/services/photos/branding.jpg",
+                  "alt": "Illustrative branding & creative solutions collaboration"
                 }
               },
               {
@@ -1266,8 +1277,8 @@
                 "body": "We apply the system to useful touchpoints and deliver guidelines for a consistent rollout.",
                 "media": {
                   "type": "image",
-                  "src": "/services/branding-visual.svg",
-                  "alt": "Bring it to life: Branding & Creative Solutions"
+                  "src": "/services/photos/branding.jpg",
+                  "alt": "Illustrative branding & creative solutions collaboration"
                 }
               }
             ]
@@ -1311,11 +1322,12 @@
         "props": {
           "overlap": "bleed",
           "category": "Branding & Creative Solutions",
-          "image": "/services/branding-visual.svg",
-          "imageAlt": "Illustrated branding & creative solutions delivery workflow",
+          "image": "/services/photos/branding.jpg",
+          "imageAlt": "Illustrative corporate branding & creative solutions scene",
           "heading": "A clear identity.\nA stronger presence.",
           "tldrLabel": "Build a brand people recognise",
-          "tldrBody": "Brand strategy, positioning and visual identity that help your business stand out and show up consistently across digital touchpoints."
+          "tldrBody": "Brand strategy, positioning and visual identity that help your business stand out and show up consistently across digital touchpoints.",
+          "imageFocus": "center"
         }
       },
       {
@@ -1347,8 +1359,8 @@
               "body": "We clarify your audience, brand personality and what makes your business distinctive.",
               "media": {
                 "type": "image",
-                "src": "/services/branding-visual.svg",
-                "alt": "Find your point of view: Branding & Creative Solutions"
+                "src": "/services/photos/branding.jpg",
+                "alt": "Illustrative branding & creative solutions collaboration"
               }
             },
             {
@@ -1356,8 +1368,8 @@
               "body": "We translate that direction into a visual language, from logo and colour to typography and layout.",
               "media": {
                 "type": "image",
-                "src": "/services/branding-visual.svg",
-                "alt": "Build the identity: Branding & Creative Solutions"
+                "src": "/services/photos/branding.jpg",
+                "alt": "Illustrative branding & creative solutions collaboration"
               }
             },
             {
@@ -1365,8 +1377,8 @@
               "body": "We apply the system to useful touchpoints and deliver guidelines for a consistent rollout.",
               "media": {
                 "type": "image",
-                "src": "/services/branding-visual.svg",
-                "alt": "Bring it to life: Branding & Creative Solutions"
+                "src": "/services/photos/branding.jpg",
+                "alt": "Illustrative branding & creative solutions collaboration"
               }
             }
           ]
@@ -1405,7 +1417,7 @@
     ],
     "intro": {
       "overlap": "bleed",
-      "image": "/services/branding-visual.svg"
+      "image": "/services/photos/branding.jpg"
     }
   },
   {
@@ -1423,7 +1435,7 @@
     "lightText": true,
     "icon": "/services/cloud-icon.svg",
     "deckIcon": "/services/cloud-icon.svg",
-    "image": "/services/cloud-visual.svg",
+    "image": "/services/photos/cloud.jpg",
     "deliverables": [
       "Cloud infrastructure setup",
       "Hosting & deployment",
@@ -1446,11 +1458,12 @@
           "props": {
             "overlap": "bleed",
             "category": "Cloud & DevOps",
-            "image": "/services/cloud-visual.svg",
-            "imageAlt": "Illustrated cloud & devops delivery workflow",
+            "image": "/services/photos/cloud.jpg",
+            "imageAlt": "Illustrative corporate cloud & devops scene",
             "heading": "From development\nto dependable delivery.",
             "tldrLabel": "Build a reliable foundation",
-            "tldrBody": "Cloud infrastructure, hosting, deployment and CI/CD support that give your applications a manageable foundation for growth."
+            "tldrBody": "Cloud infrastructure, hosting, deployment and CI/CD support that give your applications a manageable foundation for growth.",
+            "imageFocus": "center"
           }
         },
         {
@@ -1482,8 +1495,8 @@
                 "body": "We review your application needs, environments and operational requirements.",
                 "media": {
                   "type": "image",
-                  "src": "/services/cloud-visual.svg",
-                  "alt": "Assess the environment: Cloud & DevOps"
+                  "src": "/services/photos/cloud.jpg",
+                  "alt": "Illustrative cloud & devops collaboration"
                 }
               },
               {
@@ -1491,8 +1504,8 @@
                 "body": "We configure infrastructure and a repeatable deployment workflow for the agreed stack.",
                 "media": {
                   "type": "image",
-                  "src": "/services/cloud-visual.svg",
-                  "alt": "Automate delivery: Cloud & DevOps"
+                  "src": "/services/photos/cloud.jpg",
+                  "alt": "Illustrative cloud & devops collaboration"
                 }
               },
               {
@@ -1500,8 +1513,8 @@
                 "body": "We document operations, monitoring expectations and the approach to future changes.",
                 "media": {
                   "type": "image",
-                  "src": "/services/cloud-visual.svg",
-                  "alt": "Operate and improve: Cloud & DevOps"
+                  "src": "/services/photos/cloud.jpg",
+                  "alt": "Illustrative cloud & devops collaboration"
                 }
               }
             ]
@@ -1545,11 +1558,12 @@
         "props": {
           "overlap": "bleed",
           "category": "Cloud & DevOps",
-          "image": "/services/cloud-visual.svg",
-          "imageAlt": "Illustrated cloud & devops delivery workflow",
+          "image": "/services/photos/cloud.jpg",
+          "imageAlt": "Illustrative corporate cloud & devops scene",
           "heading": "From development\nto dependable delivery.",
           "tldrLabel": "Build a reliable foundation",
-          "tldrBody": "Cloud infrastructure, hosting, deployment and CI/CD support that give your applications a manageable foundation for growth."
+          "tldrBody": "Cloud infrastructure, hosting, deployment and CI/CD support that give your applications a manageable foundation for growth.",
+          "imageFocus": "center"
         }
       },
       {
@@ -1581,8 +1595,8 @@
               "body": "We review your application needs, environments and operational requirements.",
               "media": {
                 "type": "image",
-                "src": "/services/cloud-visual.svg",
-                "alt": "Assess the environment: Cloud & DevOps"
+                "src": "/services/photos/cloud.jpg",
+                "alt": "Illustrative cloud & devops collaboration"
               }
             },
             {
@@ -1590,8 +1604,8 @@
               "body": "We configure infrastructure and a repeatable deployment workflow for the agreed stack.",
               "media": {
                 "type": "image",
-                "src": "/services/cloud-visual.svg",
-                "alt": "Automate delivery: Cloud & DevOps"
+                "src": "/services/photos/cloud.jpg",
+                "alt": "Illustrative cloud & devops collaboration"
               }
             },
             {
@@ -1599,8 +1613,8 @@
               "body": "We document operations, monitoring expectations and the approach to future changes.",
               "media": {
                 "type": "image",
-                "src": "/services/cloud-visual.svg",
-                "alt": "Operate and improve: Cloud & DevOps"
+                "src": "/services/photos/cloud.jpg",
+                "alt": "Illustrative cloud & devops collaboration"
               }
             }
           ]
@@ -1639,7 +1653,7 @@
     ],
     "intro": {
       "overlap": "bleed",
-      "image": "/services/cloud-visual.svg"
+      "image": "/services/photos/cloud.jpg"
     }
   },
   {
@@ -1658,7 +1672,7 @@
     "lightText": false,
     "icon": "/services/enterprise-icon.svg",
     "deckIcon": "/services/enterprise-icon.svg",
-    "image": "/services/enterprise-visual.svg",
+    "image": "/services/photos/enterprise.jpg",
     "deliverables": [
       "Business process digitisation",
       "System & API integration",
@@ -1681,11 +1695,12 @@
           "props": {
             "overlap": "bleed",
             "category": "Enterprise Digital Transformation",
-            "image": "/services/enterprise-visual.svg",
-            "imageAlt": "Illustrated enterprise digital transformation delivery workflow",
+            "image": "/services/photos/enterprise.jpg",
+            "imageAlt": "Illustrative corporate enterprise digital transformation scene",
             "heading": "Make your business\nwork better together.",
             "tldrLabel": "Connect your systems. Simplify your business.",
-            "tldrBody": "Process digitisation, system integration and enterprise automation that reduce disconnected work across teams."
+            "tldrBody": "Process digitisation, system integration and enterprise automation that reduce disconnected work across teams.",
+            "imageFocus": "center"
           }
         },
         {
@@ -1717,8 +1732,8 @@
                 "body": "We map the current process, handoffs and the information your teams need.",
                 "media": {
                   "type": "image",
-                  "src": "/services/enterprise-visual.svg",
-                  "alt": "Map the operation: Enterprise Digital Transformation"
+                  "src": "/services/photos/enterprise.jpg",
+                  "alt": "Illustrative enterprise digital transformation collaboration"
                 }
               },
               {
@@ -1726,8 +1741,8 @@
                 "body": "We design a practical integration and automation plan around your existing systems.",
                 "media": {
                   "type": "image",
-                  "src": "/services/enterprise-visual.svg",
-                  "alt": "Connect the systems: Enterprise Digital Transformation"
+                  "src": "/services/photos/enterprise.jpg",
+                  "alt": "Illustrative enterprise digital transformation collaboration"
                 }
               },
               {
@@ -1735,8 +1750,8 @@
                 "body": "We validate the new workflow with stakeholders and prepare documentation for rollout.",
                 "media": {
                   "type": "image",
-                  "src": "/services/enterprise-visual.svg",
-                  "alt": "Support adoption: Enterprise Digital Transformation"
+                  "src": "/services/photos/enterprise.jpg",
+                  "alt": "Illustrative enterprise digital transformation collaboration"
                 }
               }
             ]
@@ -1780,11 +1795,12 @@
         "props": {
           "overlap": "bleed",
           "category": "Enterprise Digital Transformation",
-          "image": "/services/enterprise-visual.svg",
-          "imageAlt": "Illustrated enterprise digital transformation delivery workflow",
+          "image": "/services/photos/enterprise.jpg",
+          "imageAlt": "Illustrative corporate enterprise digital transformation scene",
           "heading": "Make your business\nwork better together.",
           "tldrLabel": "Connect your systems. Simplify your business.",
-          "tldrBody": "Process digitisation, system integration and enterprise automation that reduce disconnected work across teams."
+          "tldrBody": "Process digitisation, system integration and enterprise automation that reduce disconnected work across teams.",
+          "imageFocus": "center"
         }
       },
       {
@@ -1816,8 +1832,8 @@
               "body": "We map the current process, handoffs and the information your teams need.",
               "media": {
                 "type": "image",
-                "src": "/services/enterprise-visual.svg",
-                "alt": "Map the operation: Enterprise Digital Transformation"
+                "src": "/services/photos/enterprise.jpg",
+                "alt": "Illustrative enterprise digital transformation collaboration"
               }
             },
             {
@@ -1825,8 +1841,8 @@
               "body": "We design a practical integration and automation plan around your existing systems.",
               "media": {
                 "type": "image",
-                "src": "/services/enterprise-visual.svg",
-                "alt": "Connect the systems: Enterprise Digital Transformation"
+                "src": "/services/photos/enterprise.jpg",
+                "alt": "Illustrative enterprise digital transformation collaboration"
               }
             },
             {
@@ -1834,8 +1850,8 @@
               "body": "We validate the new workflow with stakeholders and prepare documentation for rollout.",
               "media": {
                 "type": "image",
-                "src": "/services/enterprise-visual.svg",
-                "alt": "Support adoption: Enterprise Digital Transformation"
+                "src": "/services/photos/enterprise.jpg",
+                "alt": "Illustrative enterprise digital transformation collaboration"
               }
             }
           ]
@@ -1874,7 +1890,7 @@
     ],
     "intro": {
       "overlap": "bleed",
-      "image": "/services/enterprise-visual.svg"
+      "image": "/services/photos/enterprise.jpg"
     }
   },
   {
@@ -1892,7 +1908,7 @@
     "lightText": true,
     "icon": "/services/team-icon.svg",
     "deckIcon": "/services/team-icon.svg",
-    "image": "/services/team-visual.svg",
+    "image": "/services/photos/consulting.jpg",
     "deliverables": [
       "Technology & architecture consulting",
       "Dedicated development teams",
@@ -1915,11 +1931,12 @@
           "props": {
             "overlap": "bleed",
             "category": "IT Consulting & Staff Augmentation",
-            "image": "/services/team-visual.svg",
-            "imageAlt": "Illustrated it consulting & staff augmentation delivery workflow",
+            "image": "/services/photos/consulting.jpg",
+            "imageAlt": "Illustrative corporate it consulting & staff augmentation scene",
             "heading": "Add capability.\nKeep moving.",
             "tldrLabel": "The right expertise for your next move",
-            "tldrBody": "Technology consulting, dedicated development teams and technical staffing to support your roadmap and delivery needs."
+            "tldrBody": "Technology consulting, dedicated development teams and technical staffing to support your roadmap and delivery needs.",
+            "imageFocus": "center"
           }
         },
         {
@@ -1951,8 +1968,8 @@
                 "body": "We clarify the technical challenge, skills, delivery expectations and working model.",
                 "media": {
                   "type": "image",
-                  "src": "/services/team-visual.svg",
-                  "alt": "Understand the requirement: IT Consulting & Staff Augmentation"
+                  "src": "/services/photos/consulting.jpg",
+                  "alt": "Illustrative it consulting & staff augmentation collaboration"
                 }
               },
               {
@@ -1960,8 +1977,8 @@
                 "body": "We recommend a consulting scope or team structure suited to the assignment.",
                 "media": {
                   "type": "image",
-                  "src": "/services/team-visual.svg",
-                  "alt": "Shape the engagement: IT Consulting & Staff Augmentation"
+                  "src": "/services/photos/consulting.jpg",
+                  "alt": "Illustrative it consulting & staff augmentation collaboration"
                 }
               },
               {
@@ -1969,8 +1986,8 @@
                 "body": "We align communication, responsibilities and review points with your existing team.",
                 "media": {
                   "type": "image",
-                  "src": "/services/team-visual.svg",
-                  "alt": "Integrate with your team: IT Consulting & Staff Augmentation"
+                  "src": "/services/photos/consulting.jpg",
+                  "alt": "Illustrative it consulting & staff augmentation collaboration"
                 }
               }
             ]
@@ -2014,11 +2031,12 @@
         "props": {
           "overlap": "bleed",
           "category": "IT Consulting & Staff Augmentation",
-          "image": "/services/team-visual.svg",
-          "imageAlt": "Illustrated it consulting & staff augmentation delivery workflow",
+          "image": "/services/photos/consulting.jpg",
+          "imageAlt": "Illustrative corporate it consulting & staff augmentation scene",
           "heading": "Add capability.\nKeep moving.",
           "tldrLabel": "The right expertise for your next move",
-          "tldrBody": "Technology consulting, dedicated development teams and technical staffing to support your roadmap and delivery needs."
+          "tldrBody": "Technology consulting, dedicated development teams and technical staffing to support your roadmap and delivery needs.",
+          "imageFocus": "center"
         }
       },
       {
@@ -2050,8 +2068,8 @@
               "body": "We clarify the technical challenge, skills, delivery expectations and working model.",
               "media": {
                 "type": "image",
-                "src": "/services/team-visual.svg",
-                "alt": "Understand the requirement: IT Consulting & Staff Augmentation"
+                "src": "/services/photos/consulting.jpg",
+                "alt": "Illustrative it consulting & staff augmentation collaboration"
               }
             },
             {
@@ -2059,8 +2077,8 @@
               "body": "We recommend a consulting scope or team structure suited to the assignment.",
               "media": {
                 "type": "image",
-                "src": "/services/team-visual.svg",
-                "alt": "Shape the engagement: IT Consulting & Staff Augmentation"
+                "src": "/services/photos/consulting.jpg",
+                "alt": "Illustrative it consulting & staff augmentation collaboration"
               }
             },
             {
@@ -2068,8 +2086,8 @@
               "body": "We align communication, responsibilities and review points with your existing team.",
               "media": {
                 "type": "image",
-                "src": "/services/team-visual.svg",
-                "alt": "Integrate with your team: IT Consulting & Staff Augmentation"
+                "src": "/services/photos/consulting.jpg",
+                "alt": "Illustrative it consulting & staff augmentation collaboration"
               }
             }
           ]
@@ -2108,7 +2126,7 @@
     ],
     "intro": {
       "overlap": "bleed",
-      "image": "/services/team-visual.svg"
+      "image": "/services/photos/consulting.jpg"
     }
   },
   {
@@ -2127,7 +2145,7 @@
     "lightText": false,
     "icon": "/services/analytics-icon.svg",
     "deckIcon": "/services/analytics-icon.svg",
-    "image": "/services/analytics-visual.svg",
+    "image": "/services/photos/analytics.jpg",
     "deliverables": [
       "Business intelligence dashboards",
       "Reporting & data visualisation",
@@ -2150,11 +2168,12 @@
           "props": {
             "overlap": "bleed",
             "category": "Data Analytics & Business Intelligence",
-            "image": "/services/analytics-visual.svg",
-            "imageAlt": "Illustrated data analytics & business intelligence delivery workflow",
+            "image": "/services/photos/analytics.jpg",
+            "imageAlt": "Illustrative corporate data analytics & business intelligence scene",
             "heading": "From scattered data\nto clearer decisions.",
             "tldrLabel": "See the story in your data",
-            "tldrBody": "Dashboards, reporting and data visualisation that help your team understand performance and explore what comes next."
+            "tldrBody": "Dashboards, reporting and data visualisation that help your team understand performance and explore what comes next.",
+            "imageFocus": "center"
           }
         },
         {
@@ -2186,8 +2205,8 @@
                 "body": "We agree the decisions, measures and source systems the dashboard needs to support.",
                 "media": {
                   "type": "image",
-                  "src": "/services/analytics-visual.svg",
-                  "alt": "Define useful questions: Data Analytics & Business Intelligence"
+                  "src": "/services/photos/analytics.jpg",
+                  "alt": "Illustrative data analytics & business intelligence collaboration"
                 }
               },
               {
@@ -2195,8 +2214,8 @@
                 "body": "We prepare and connect data, checking definitions and data quality before presenting results.",
                 "media": {
                   "type": "image",
-                  "src": "/services/analytics-visual.svg",
-                  "alt": "Connect the data: Data Analytics & Business Intelligence"
+                  "src": "/services/photos/analytics.jpg",
+                  "alt": "Illustrative data analytics & business intelligence collaboration"
                 }
               },
               {
@@ -2204,8 +2223,8 @@
                 "body": "We design usable reporting views and explain how your team can interpret and maintain them.",
                 "media": {
                   "type": "image",
-                  "src": "/services/analytics-visual.svg",
-                  "alt": "Make insights usable: Data Analytics & Business Intelligence"
+                  "src": "/services/photos/analytics.jpg",
+                  "alt": "Illustrative data analytics & business intelligence collaboration"
                 }
               }
             ]
@@ -2249,11 +2268,12 @@
         "props": {
           "overlap": "bleed",
           "category": "Data Analytics & Business Intelligence",
-          "image": "/services/analytics-visual.svg",
-          "imageAlt": "Illustrated data analytics & business intelligence delivery workflow",
+          "image": "/services/photos/analytics.jpg",
+          "imageAlt": "Illustrative corporate data analytics & business intelligence scene",
           "heading": "From scattered data\nto clearer decisions.",
           "tldrLabel": "See the story in your data",
-          "tldrBody": "Dashboards, reporting and data visualisation that help your team understand performance and explore what comes next."
+          "tldrBody": "Dashboards, reporting and data visualisation that help your team understand performance and explore what comes next.",
+          "imageFocus": "center"
         }
       },
       {
@@ -2285,8 +2305,8 @@
               "body": "We agree the decisions, measures and source systems the dashboard needs to support.",
               "media": {
                 "type": "image",
-                "src": "/services/analytics-visual.svg",
-                "alt": "Define useful questions: Data Analytics & Business Intelligence"
+                "src": "/services/photos/analytics.jpg",
+                "alt": "Illustrative data analytics & business intelligence collaboration"
               }
             },
             {
@@ -2294,8 +2314,8 @@
               "body": "We prepare and connect data, checking definitions and data quality before presenting results.",
               "media": {
                 "type": "image",
-                "src": "/services/analytics-visual.svg",
-                "alt": "Connect the data: Data Analytics & Business Intelligence"
+                "src": "/services/photos/analytics.jpg",
+                "alt": "Illustrative data analytics & business intelligence collaboration"
               }
             },
             {
@@ -2303,8 +2323,8 @@
               "body": "We design usable reporting views and explain how your team can interpret and maintain them.",
               "media": {
                 "type": "image",
-                "src": "/services/analytics-visual.svg",
-                "alt": "Make insights usable: Data Analytics & Business Intelligence"
+                "src": "/services/photos/analytics.jpg",
+                "alt": "Illustrative data analytics & business intelligence collaboration"
               }
             }
           ]
@@ -2343,7 +2363,7 @@
     ],
     "intro": {
       "overlap": "bleed",
-      "image": "/services/analytics-visual.svg"
+      "image": "/services/photos/analytics.jpg"
     }
   },
   {
@@ -2362,7 +2382,7 @@
     "lightText": false,
     "icon": "/services/web3-icon.svg",
     "deckIcon": "/services/web3-icon.svg",
-    "image": "/services/web3-visual.svg",
+    "image": "/services/photos/web3.jpg",
     "deliverables": [
       "Decentralised applications",
       "Smart contract development",
@@ -2385,11 +2405,12 @@
           "props": {
             "overlap": "bleed",
             "category": "Blockchain & Web3",
-            "image": "/services/web3-visual.svg",
-            "imageAlt": "Illustrated blockchain & web3 delivery workflow",
+            "image": "/services/photos/web3.jpg",
+            "imageAlt": "Illustrative corporate blockchain & web3 scene",
             "heading": "Build for a\nconnected ecosystem.",
             "tldrLabel": "Explore what decentralisation can do",
-            "tldrBody": "Decentralised applications, smart contracts and blockchain integrations for projects with a clear use case."
+            "tldrBody": "Decentralised applications, smart contracts and blockchain integrations for projects with a clear use case.",
+            "imageFocus": "center"
           }
         },
         {
@@ -2421,8 +2442,8 @@
                 "body": "We explore whether blockchain fits the problem, users and operating requirements.",
                 "media": {
                   "type": "image",
-                  "src": "/services/web3-visual.svg",
-                  "alt": "Validate the use case: Blockchain & Web3"
+                  "src": "/services/photos/web3.jpg",
+                  "alt": "Illustrative blockchain & web3 collaboration"
                 }
               },
               {
@@ -2430,8 +2451,8 @@
                 "body": "We define the application, contract interactions and integration boundaries.",
                 "media": {
                   "type": "image",
-                  "src": "/services/web3-visual.svg",
-                  "alt": "Design the architecture: Blockchain & Web3"
+                  "src": "/services/photos/web3.jpg",
+                  "alt": "Illustrative blockchain & web3 collaboration"
                 }
               },
               {
@@ -2439,8 +2460,8 @@
                 "body": "We build and test the agreed scope; independent security review is scoped separately where required.",
                 "media": {
                   "type": "image",
-                  "src": "/services/web3-visual.svg",
-                  "alt": "Develop and validate: Blockchain & Web3"
+                  "src": "/services/photos/web3.jpg",
+                  "alt": "Illustrative blockchain & web3 collaboration"
                 }
               }
             ]
@@ -2484,11 +2505,12 @@
         "props": {
           "overlap": "bleed",
           "category": "Blockchain & Web3",
-          "image": "/services/web3-visual.svg",
-          "imageAlt": "Illustrated blockchain & web3 delivery workflow",
+          "image": "/services/photos/web3.jpg",
+          "imageAlt": "Illustrative corporate blockchain & web3 scene",
           "heading": "Build for a\nconnected ecosystem.",
           "tldrLabel": "Explore what decentralisation can do",
-          "tldrBody": "Decentralised applications, smart contracts and blockchain integrations for projects with a clear use case."
+          "tldrBody": "Decentralised applications, smart contracts and blockchain integrations for projects with a clear use case.",
+          "imageFocus": "center"
         }
       },
       {
@@ -2520,8 +2542,8 @@
               "body": "We explore whether blockchain fits the problem, users and operating requirements.",
               "media": {
                 "type": "image",
-                "src": "/services/web3-visual.svg",
-                "alt": "Validate the use case: Blockchain & Web3"
+                "src": "/services/photos/web3.jpg",
+                "alt": "Illustrative blockchain & web3 collaboration"
               }
             },
             {
@@ -2529,8 +2551,8 @@
               "body": "We define the application, contract interactions and integration boundaries.",
               "media": {
                 "type": "image",
-                "src": "/services/web3-visual.svg",
-                "alt": "Design the architecture: Blockchain & Web3"
+                "src": "/services/photos/web3.jpg",
+                "alt": "Illustrative blockchain & web3 collaboration"
               }
             },
             {
@@ -2538,8 +2560,8 @@
               "body": "We build and test the agreed scope; independent security review is scoped separately where required.",
               "media": {
                 "type": "image",
-                "src": "/services/web3-visual.svg",
-                "alt": "Develop and validate: Blockchain & Web3"
+                "src": "/services/photos/web3.jpg",
+                "alt": "Illustrative blockchain & web3 collaboration"
               }
             }
           ]
@@ -2578,7 +2600,7 @@
     ],
     "intro": {
       "overlap": "bleed",
-      "image": "/services/web3-visual.svg"
+      "image": "/services/photos/web3.jpg"
     }
   },
   {
@@ -2597,7 +2619,7 @@
     "lightText": false,
     "icon": "/services/research-icon.svg",
     "deckIcon": "/services/research-icon.svg",
-    "image": "/services/research-visual.svg",
+    "image": "/services/photos/research.jpg",
     "deliverables": [
       "AI & emerging technology research",
       "Technical feasibility studies",
@@ -2620,11 +2642,12 @@
           "props": {
             "overlap": "bleed",
             "category": "Technology Research & Innovation",
-            "image": "/services/research-visual.svg",
-            "imageAlt": "Illustrated technology research & innovation delivery workflow",
+            "image": "/services/photos/research.jpg",
+            "imageAlt": "Illustrative corporate technology research & innovation scene",
             "heading": "Explore first.\nBuild with purpose.",
             "tldrLabel": "Test your next big possibility",
-            "tldrBody": "AI research, emerging technology exploration and proofs of concept that help you make informed product and investment decisions."
+            "tldrBody": "AI research, emerging technology exploration and proofs of concept that help you make informed product and investment decisions.",
+            "imageFocus": "center"
           }
         },
         {
@@ -2656,8 +2679,8 @@
                 "body": "We define the assumption to test, practical constraints and what useful evidence looks like.",
                 "media": {
                   "type": "image",
-                  "src": "/services/research-visual.svg",
-                  "alt": "Frame the question: Technology Research & Innovation"
+                  "src": "/services/photos/research.jpg",
+                  "alt": "Illustrative technology research & innovation collaboration"
                 }
               },
               {
@@ -2665,8 +2688,8 @@
                 "body": "We create a focused prototype or technical experiment around that question.",
                 "media": {
                   "type": "image",
-                  "src": "/services/research-visual.svg",
-                  "alt": "Run a focused experiment: Technology Research & Innovation"
+                  "src": "/services/photos/research.jpg",
+                  "alt": "Illustrative technology research & innovation collaboration"
                 }
               },
               {
@@ -2674,8 +2697,8 @@
                 "body": "We share findings, limitations and recommendations for developing the idea further.",
                 "media": {
                   "type": "image",
-                  "src": "/services/research-visual.svg",
-                  "alt": "Decide the next step: Technology Research & Innovation"
+                  "src": "/services/photos/research.jpg",
+                  "alt": "Illustrative technology research & innovation collaboration"
                 }
               }
             ]
@@ -2719,11 +2742,12 @@
         "props": {
           "overlap": "bleed",
           "category": "Technology Research & Innovation",
-          "image": "/services/research-visual.svg",
-          "imageAlt": "Illustrated technology research & innovation delivery workflow",
+          "image": "/services/photos/research.jpg",
+          "imageAlt": "Illustrative corporate technology research & innovation scene",
           "heading": "Explore first.\nBuild with purpose.",
           "tldrLabel": "Test your next big possibility",
-          "tldrBody": "AI research, emerging technology exploration and proofs of concept that help you make informed product and investment decisions."
+          "tldrBody": "AI research, emerging technology exploration and proofs of concept that help you make informed product and investment decisions.",
+          "imageFocus": "center"
         }
       },
       {
@@ -2755,8 +2779,8 @@
               "body": "We define the assumption to test, practical constraints and what useful evidence looks like.",
               "media": {
                 "type": "image",
-                "src": "/services/research-visual.svg",
-                "alt": "Frame the question: Technology Research & Innovation"
+                "src": "/services/photos/research.jpg",
+                "alt": "Illustrative technology research & innovation collaboration"
               }
             },
             {
@@ -2764,8 +2788,8 @@
               "body": "We create a focused prototype or technical experiment around that question.",
               "media": {
                 "type": "image",
-                "src": "/services/research-visual.svg",
-                "alt": "Run a focused experiment: Technology Research & Innovation"
+                "src": "/services/photos/research.jpg",
+                "alt": "Illustrative technology research & innovation collaboration"
               }
             },
             {
@@ -2773,8 +2797,8 @@
               "body": "We share findings, limitations and recommendations for developing the idea further.",
               "media": {
                 "type": "image",
-                "src": "/services/research-visual.svg",
-                "alt": "Decide the next step: Technology Research & Innovation"
+                "src": "/services/photos/research.jpg",
+                "alt": "Illustrative technology research & innovation collaboration"
               }
             }
           ]
@@ -2813,7 +2837,7 @@
     ],
     "intro": {
       "overlap": "bleed",
-      "image": "/services/research-visual.svg"
+      "image": "/services/photos/research.jpg"
     }
   },
   {
@@ -2831,7 +2855,7 @@
     "lightText": false,
     "icon": "/services/linkedin-icon.svg",
     "deckIcon": "/services/linkedin-icon.svg",
-    "image": "/services/linkedin-visual.svg",
+    "image": "/services/photos/linkedin.jpg",
     "deliverables": [
       "Personal profile optimisation",
       "Company page positioning",
@@ -2854,11 +2878,12 @@
           "props": {
             "overlap": "bleed",
             "category": "LinkedIn Marketing",
-            "image": "/services/linkedin-visual.svg",
-            "imageAlt": "Illustrated linkedin marketing delivery workflow",
+            "image": "/services/photos/linkedin.jpg",
+            "imageAlt": "Illustrative corporate linkedin marketing scene",
             "heading": "A professional\npresence with purpose.",
             "tldrLabel": "Build credibility. Start conversations.",
-            "tldrBody": "LinkedIn profile optimisation, thought leadership and content management for founders, professionals and company pages."
+            "tldrBody": "LinkedIn profile optimisation, thought leadership and content management for founders, professionals and company pages.",
+            "imageFocus": "center"
           }
         },
         {
@@ -2890,8 +2915,8 @@
                 "body": "We align your profile or company page with your expertise, audience and goals.",
                 "media": {
                   "type": "image",
-                  "src": "/services/linkedin-visual.svg",
-                  "alt": "Position your expertise: LinkedIn Marketing"
+                  "src": "/services/photos/linkedin.jpg",
+                  "alt": "Illustrative linkedin marketing collaboration"
                 }
               },
               {
@@ -2899,8 +2924,8 @@
                 "body": "We develop content themes, profile messaging and a practical publishing calendar.",
                 "media": {
                   "type": "image",
-                  "src": "/services/linkedin-visual.svg",
-                  "alt": "Develop your content voice: LinkedIn Marketing"
+                  "src": "/services/photos/linkedin.jpg",
+                  "alt": "Illustrative linkedin marketing collaboration"
                 }
               },
               {
@@ -2908,8 +2933,8 @@
                 "body": "We support consistent publishing, community engagement and performance reviews without promising fixed lead volumes.",
                 "media": {
                   "type": "image",
-                  "src": "/services/linkedin-visual.svg",
-                  "alt": "Build a consistent presence: LinkedIn Marketing"
+                  "src": "/services/photos/linkedin.jpg",
+                  "alt": "Illustrative linkedin marketing collaboration"
                 }
               }
             ]
@@ -2953,11 +2978,12 @@
         "props": {
           "overlap": "bleed",
           "category": "LinkedIn Marketing",
-          "image": "/services/linkedin-visual.svg",
-          "imageAlt": "Illustrated linkedin marketing delivery workflow",
+          "image": "/services/photos/linkedin.jpg",
+          "imageAlt": "Illustrative corporate linkedin marketing scene",
           "heading": "A professional\npresence with purpose.",
           "tldrLabel": "Build credibility. Start conversations.",
-          "tldrBody": "LinkedIn profile optimisation, thought leadership and content management for founders, professionals and company pages."
+          "tldrBody": "LinkedIn profile optimisation, thought leadership and content management for founders, professionals and company pages.",
+          "imageFocus": "center"
         }
       },
       {
@@ -2989,8 +3015,8 @@
               "body": "We align your profile or company page with your expertise, audience and goals.",
               "media": {
                 "type": "image",
-                "src": "/services/linkedin-visual.svg",
-                "alt": "Position your expertise: LinkedIn Marketing"
+                "src": "/services/photos/linkedin.jpg",
+                "alt": "Illustrative linkedin marketing collaboration"
               }
             },
             {
@@ -2998,8 +3024,8 @@
               "body": "We develop content themes, profile messaging and a practical publishing calendar.",
               "media": {
                 "type": "image",
-                "src": "/services/linkedin-visual.svg",
-                "alt": "Develop your content voice: LinkedIn Marketing"
+                "src": "/services/photos/linkedin.jpg",
+                "alt": "Illustrative linkedin marketing collaboration"
               }
             },
             {
@@ -3007,8 +3033,8 @@
               "body": "We support consistent publishing, community engagement and performance reviews without promising fixed lead volumes.",
               "media": {
                 "type": "image",
-                "src": "/services/linkedin-visual.svg",
-                "alt": "Build a consistent presence: LinkedIn Marketing"
+                "src": "/services/photos/linkedin.jpg",
+                "alt": "Illustrative linkedin marketing collaboration"
               }
             }
           ]
@@ -3047,7 +3073,7 @@
     ],
     "intro": {
       "overlap": "bleed",
-      "image": "/services/linkedin-visual.svg"
+      "image": "/services/photos/linkedin.jpg"
     }
   },
   {
@@ -3066,7 +3092,7 @@
     "lightText": false,
     "icon": "/services/video-icon.svg",
     "deckIcon": "/services/video-icon.svg",
-    "image": "/services/video-visual.svg",
+    "image": "/services/photos/video.jpg",
     "deliverables": [
       "Video concepts & scripts",
       "Video editing & post-production",
@@ -3089,11 +3115,12 @@
           "props": {
             "overlap": "bleed",
             "category": "Video & Motion Design",
-            "image": "/services/video-visual.svg",
-            "imageAlt": "Illustrated video & motion design delivery workflow",
+            "image": "/services/photos/video.jpg",
+            "imageAlt": "Illustrative corporate video & motion design scene",
             "heading": "Made to engage.\nBuilt around your story.",
             "tldrLabel": "Turn your story into movement",
-            "tldrBody": "From concept to final cut, we craft video and motion content with clear narratives and visuals suited to the platform."
+            "tldrBody": "From concept to final cut, we craft video and motion content with clear narratives and visuals suited to the platform.",
+            "imageFocus": "center"
           }
         },
         {
@@ -3125,8 +3152,8 @@
                 "body": "We clarify the audience, message, format and creative direction before production.",
                 "media": {
                   "type": "image",
-                  "src": "/services/video-visual.svg",
-                  "alt": "Find the story: Video & Motion Design"
+                  "src": "/services/photos/video.jpg",
+                  "alt": "Illustrative video & motion design collaboration"
                 }
               },
               {
@@ -3134,8 +3161,8 @@
                 "body": "We shape the narrative through storyboards, editing and motion design.",
                 "media": {
                   "type": "image",
-                  "src": "/services/video-visual.svg",
-                  "alt": "Create the sequence: Video & Motion Design"
+                  "src": "/services/photos/video.jpg",
+                  "alt": "Illustrative video & motion design collaboration"
                 }
               },
               {
@@ -3143,8 +3170,8 @@
                 "body": "We refine the cut and deliver the agreed formats for your channels and campaign.",
                 "media": {
                   "type": "image",
-                  "src": "/services/video-visual.svg",
-                  "alt": "Deliver for the platform: Video & Motion Design"
+                  "src": "/services/photos/video.jpg",
+                  "alt": "Illustrative video & motion design collaboration"
                 }
               }
             ]
@@ -3188,11 +3215,12 @@
         "props": {
           "overlap": "bleed",
           "category": "Video & Motion Design",
-          "image": "/services/video-visual.svg",
-          "imageAlt": "Illustrated video & motion design delivery workflow",
+          "image": "/services/photos/video.jpg",
+          "imageAlt": "Illustrative corporate video & motion design scene",
           "heading": "Made to engage.\nBuilt around your story.",
           "tldrLabel": "Turn your story into movement",
-          "tldrBody": "From concept to final cut, we craft video and motion content with clear narratives and visuals suited to the platform."
+          "tldrBody": "From concept to final cut, we craft video and motion content with clear narratives and visuals suited to the platform.",
+          "imageFocus": "center"
         }
       },
       {
@@ -3224,8 +3252,8 @@
               "body": "We clarify the audience, message, format and creative direction before production.",
               "media": {
                 "type": "image",
-                "src": "/services/video-visual.svg",
-                "alt": "Find the story: Video & Motion Design"
+                "src": "/services/photos/video.jpg",
+                "alt": "Illustrative video & motion design collaboration"
               }
             },
             {
@@ -3233,8 +3261,8 @@
               "body": "We shape the narrative through storyboards, editing and motion design.",
               "media": {
                 "type": "image",
-                "src": "/services/video-visual.svg",
-                "alt": "Create the sequence: Video & Motion Design"
+                "src": "/services/photos/video.jpg",
+                "alt": "Illustrative video & motion design collaboration"
               }
             },
             {
@@ -3242,8 +3270,8 @@
               "body": "We refine the cut and deliver the agreed formats for your channels and campaign.",
               "media": {
                 "type": "image",
-                "src": "/services/video-visual.svg",
-                "alt": "Deliver for the platform: Video & Motion Design"
+                "src": "/services/photos/video.jpg",
+                "alt": "Illustrative video & motion design collaboration"
               }
             }
           ]
@@ -3282,7 +3310,7 @@
     ],
     "intro": {
       "overlap": "bleed",
-      "image": "/services/video-visual.svg"
+      "image": "/services/photos/video.jpg"
     }
   }
 ]
