@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#eef1f9"/>
+  <rect x="60" y="60" width="1480" height="880" rx="24" fill="#ffffff"/>
+  <rect x="110" y="120" width="360" height="34" rx="8" fill="#c7d2ea"/>
+  <rect x="110" y="184" width="520" height="60" rx="10" fill="#e7ecf6"/>
+  <g>
+    <rect x="110" y="300" width="430" height="260" rx="16" fill="#eaf3f7"/>
+    <rect x="585" y="300" width="430" height="260" rx="16" fill="#fdeee6"/>
+    <rect x="1060" y="300" width="430" height="260" rx="16" fill="#f0f4ff"/>
+    <rect x="110" y="600" width="430" height="260" rx="16" fill="#eaf7ef"/>
+    <rect x="585" y="600" width="430" height="260" rx="16" fill="#fff6e0"/>
+    <rect x="1060" y="600" width="430" height="260" rx="16" fill="#fdeceb"/>
+  </g>
+  <text x="800" y="512" fill="#9aa7bd" font-family="PP Neue Montreal,system-ui,sans-serif" font-size="40" font-weight="600" text-anchor="middle">Product UI (placeholder)</text>
+</svg>

@@ -1,7 +1,11 @@
 # 8am Showcase recreation
 
-Buildless HTML/CSS/JavaScript. Serve `dist` with any static HTTP server.
+Preserves the public reference browser application, GSAP animations, 83 scroll frames, original fonts, image assets, holographic cards, animated grid and filter transitions, 14 complete chapter views and their interactive feature demos.
 
-Includes locally bundled reference imagery, fonts, scroll frames, holographic card faces, a 14-card filtered carousel, keyboard and swipe navigation, solution dialogs, integration accordion, and a local-only demo form. Reference: https://showcase.8am.com/ .
+Reference: https://showcase.8am.com/
 
-The original server submission is deliberately not connected. Solution detail views are condensed recreations; the original long-form product walkthroughs are not all reproduced.
+Serve `dist` as a static website. No build step. The public compiled browser files are retained to preserve animation timing and behavior; original editable component source is not available.
+
+Hosting adaptations: image URLs resolve to locally bundled originals instead of Netlify image transformations; third-party analytics injection is removed; lead submission is isolated from the reference company’s Marketo endpoint and displays a preview message. External editorial and integration links continue to their original destinations.
+
+Local browser QA: desktop intro, card grid/menu transition, chapter opening, feature tab selection; mobile viewport 390px with no horizontal overflow.
