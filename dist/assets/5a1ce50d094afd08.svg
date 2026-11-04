@@ -1,0 +1,21 @@
+<svg viewBox="0 0 506 506" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="graph">
+<ellipse id="Ellipse 1825" cx="252.741" cy="252.74" rx="252.741" ry="252.74" fill="url(#paint0_linear_1571_1986)" fill-opacity="0.6"></ellipse>
+<ellipse id="Ellipse 1809" cx="173.5" cy="174" rx="173.5" ry="174" transform="matrix(-1 0 0 1 426.24 157.74)" fill="url(#paint1_linear_1571_1986)"></ellipse>
+<g id="60%">
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="PP Neue Montreal" font-size="78.7893" font-weight="bold" letter-spacing="-0.019em"><tspan x="235.757" y="378.021">0</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="PP Neue Montreal" font-size="78.7893" font-weight="bold" letter-spacing="-0.019em"><tspan x="288.504" y="378.021">%</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="PP Neue Montreal" font-size="78.7893" font-weight="bold" letter-spacing="-0.019em"><tspan x="185.24" y="378.021">6</tspan></text>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1571_1986" x1="148.778" y1="21.7892" x2="338.188" y2="488.914" gradientUnits="userSpaceOnUse">
+<stop offset="0.116529" stop-color="#FFF0C4"></stop>
+<stop offset="1" stop-color="#F2C12E"></stop>
+</linearGradient>
+<linearGradient id="paint1_linear_1571_1986" x1="222.431" y1="12.505" x2="58.5242" y2="174.265" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFD0BA"></stop>
+<stop offset="1" stop-color="#FF7381"></stop>
+</linearGradient>
+</defs>
+</svg>
