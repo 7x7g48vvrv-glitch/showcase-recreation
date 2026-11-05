@@ -1,5 +1,5 @@
 import {r as React} from '../assets/embla-Cx-87qjd.js';
-import {services} from './catalog.js?v=20261105-brand';
+import {services} from './catalog.js?v=20261105-reach';
 const h=React.createElement;
 const profile='https://www.canva.com/design/DAHZF0ccAgY/638SMVN9l8qUUcIxF7bW4w/view';
 const empty={name:'',email:'',company:'',phone:'',website:'',budget:'',timeline:'',brief:'',consent:false};
@@ -42,10 +42,41 @@ const pillars=[
  {name:'Grow',label:'A stronger digital presence',image:'/services/photos/growth.jpg',body:'Brand positioning, SEO, performance marketing and social media management. The portfolio includes work for Hopecity Autogarage, Al Safwa Radiology, Magic Padel and Fvr Corporate Services.'},
  {name:'Create',label:'Stories made to connect',image:'/services/photos/video.jpg',body:'Brand identity, graphic design, LinkedIn profile optimisation and video design. From a clear professional presence to purposeful storytelling, each touchpoint works towards the same brand.'}
 ];
-export function CompanySpotlight({pinned=false}){
+function CompanyIntro({pinned=false}){
  const [active,setActive]=React.useState(0);
  return h('section',{className:`integrations th-company${pinned?' integrations--pinned':''}`,'aria-labelledby':'integrations-title'},h('div',{className:'integrations__head'},h('p',{className:'th-kicker'},'WHO WE ARE'),h('h2',{id:'integrations-title',className:'integrations__title'},'Technology. Strategy.',h('br'), 'Business growth.')),
  h('ul',{className:'integrations__row'},...pillars.map((p,i)=>h('li',{key:p.name,className:`integrations__slide${active===i?' is-open':''}`},h('h3',{className:'integrations__slide-title'},h('button',{type:'button',id:`th-pillar-${i}`,className:'integrations__slide-trigger','aria-expanded':active===i,'aria-controls':`th-pillar-panel-${i}`,onClick:()=>setActive(i)},h('span',{className:'integrations__slide-title-label'},p.label),h('span',{className:'th-pillar-name'},p.name))),h('div',{id:`th-pillar-panel-${i}`,role:'region','aria-labelledby':`th-pillar-${i}`,className:'integrations__slide-body',inert:active===i?undefined:''},h('div',{className:'integrations__slide-copy'},h('p',{className:'th-kicker'},'TONHAUTE LABS'),h('h3',{className:'th-company-name'},p.name),h('p',{className:'integrations__slide-blurb'},p.body),h('a',{href:profile,target:'_blank',rel:'noopener noreferrer',className:'integrations__slide-cta'},'View company portfolio ↗')),h('div',{className:'integrations__slide-media'},h('img',{className:'integrations__slide-ui',src:p.image,alt:`Illustrative corporate ${p.name.toLowerCase()} scene`,loading:'lazy'})))))));
+}
+
+const countries=[
+ {code:'AE',name:'United Arab Emirates',location:'Abu Dhabi · Dubai',people:['Qadir Mahmood','Ali Khan','RR Premnath','Sajeer Ibrahim']},
+ {code:'IN',name:'India',location:'India',people:['Alisha Khanam']},
+ {code:'QA',name:'Qatar',location:'Qatar',people:['Avinash Deshpande']},
+ {code:'RU',name:'Russia',location:'Russia',people:['Anna Kamneeva']},
+ {code:'AU',name:'Australia',location:'Australia',people:['Vicyber']},
+ {code:'SA',name:'Saudi Arabia',location:'Saudi Arabia',people:['Muhammad Shahbaz Khan']}
+];
+const socialClients=['Hopecity Autogarage','Al Safwa Radiology','Farm Basket','Khatoonpreneur','Fvr Corporate Services','R Eyes','Mai Laundry','Fantasy Abaya','Cute Lady','Magic Padel','Estera','Teatro'];
+const performanceClients=['Celtic','Dac Developers','Empower','Tastahel','Lndry','Estera','Fantasy Abaya','Magic Padel','My Services','Lulu Prime','Ekyam Herbal','Fvr Corporate Services','Hand Me','Showloom','Digital Jatin - ADS'];
+const practiceGroups=[
+ {title:'Build & launch',body:'Turn a business need into a useful digital product.',image:'software',ids:[2,3,4,7,8,9]},
+ {title:'Grow & create',body:'Connect your identity, content and marketing.',image:'growth',ids:[5,6,13,14]},
+ {title:'Explore & innovate',body:'Find practical uses for emerging technology and data.',image:'research',ids:[1,10,11,12]}
+];
+function SceneHeading({eyebrow,title,body}){return h('header',{className:'th-scene-heading'},h('p',{className:'th-kicker'},eyebrow),h('h2',null,title),h('p',null,body));}
+function GlobalReach(){const [active,setActive]=React.useState(0);const country=countries[active];return h('section',{className:'th-editorial th-reach','aria-labelledby':'th-reach-title'},
+ h(SceneHeading,{eyebrow:'02 / GLOBAL REACH',title:h('span',{id:'th-reach-title'},'Working across borders.'),body:'From the UAE to Australia, our portfolio connects people, brands and digital opportunities across six countries.'}),
+ h('div',{className:'th-reach-layout'},h('div',{className:'th-country-grid'},...countries.map((c,i)=>h('button',{type:'button',className:`th-country${i===active?' is-active':''}`,key:c.code,'aria-pressed':i===active,onClick:()=>setActive(i)},h('span',{className:'th-country-code','aria-hidden':true},c.code),h('span',null,c.name),h('span',{'aria-hidden':true},'↗')))),
+ h('aside',{className:'th-country-detail','aria-live':'polite'},h('span',{className:'th-reach-orbit','aria-hidden':true},h('span',null),h('span',null),h('span',null)),h('p',{className:'th-kicker'},'CLIENT SPOTLIGHT / LINKEDIN'),h('h3',null,country.location),h('ul',null,...country.people.map(name=>h('li',{key:name},name))),h('p',{className:'th-source-note'},'Client locations featured in our company portfolio.'))),h('p',{className:'th-reach-footnote'},'One connected approach. Technology, strategy and creative delivery.'))}
+function Expertise(){return h('section',{className:'th-editorial th-expertise'},h(SceneHeading,{eyebrow:'03 / OUR SERVICES',title:'Built for your next move.',body:'Fourteen specialist services. One connected team. Choose a service to explore its scope and delivery process.'}),h('div',{className:'th-practice-grid'},...practiceGroups.map(group=>h('article',{className:'th-practice',key:group.title},h('img',{src:`/services/photos/${group.image}.jpg`,alt:`Illustrative ${group.title.toLowerCase()} service scene`,loading:'lazy',width:1536,height:1024}),h('div',{className:'th-practice-copy'},h('h3',null,group.title),h('p',null,group.body),h('ul',null,...group.ids.map(id=>{const service=services.find(s=>s.id===`card-${id}`);return service&&h('li',{key:id},h('button',{type:'button',onClick:()=>window.dispatchEvent(new CustomEvent('card-detail:open',{detail:service}))},service.name,h('span',{'aria-hidden':true},'↗')));})))))));}
+function ClientWork(){const [filter,setFilter]=React.useState('All brands');const names=filter==='LinkedIn'?countries.flatMap(c=>c.people):filter==='Social media'?socialClients:filter==='Performance marketing'?performanceClients:[...new Set([...socialClients,...performanceClients])];return h('section',{className:'th-editorial th-clients'},h(SceneHeading,{eyebrow:'04 / SELECTED CLIENT WORK',title:'Different brands. Shared ambition.',body:'A selection from our portfolio across social media management, performance marketing and LinkedIn profile management.'}),h('div',{className:'th-client-filters','aria-label':'Filter client work'},...['All brands','Social media','Performance marketing','LinkedIn'].map(label=>h('button',{type:'button',key:label,'aria-pressed':filter===label,onClick:()=>setFilter(label)},label))),h('div',{className:'th-client-wall','aria-live':'polite'},...names.map(name=>h('div',{className:'th-client-name',key:name},name))),h('footer',{className:'th-client-footer'},h('p',null,filter==='LinkedIn'?'Profiles and businesses featured in our LinkedIn portfolio.':'Client names as featured in the Ton Haute Labs portfolio.'),h('a',{href:profile,target:'_blank',rel:'noopener noreferrer'},'Explore the company portfolio ↗')));}
+export function CompanySpotlight({pinned=false,timeline=false}){
+ const [active,setActive]=React.useState(0);const sequence=React.useRef(null);
+ React.useEffect(()=>{if(timeline||matchMedia('(prefers-reduced-motion:reduce)').matches)return;const panels=[...sequence.current.querySelectorAll('.th-company-scene')];const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.dataset.revealed='true';observer.unobserve(entry.target);}}),{threshold:.06});panels.forEach(panel=>{panel.dataset.revealReady='true';observer.observe(panel);});return()=>observer.disconnect();},[timeline]);
+ React.useEffect(()=>{if(!timeline)return;const update=e=>setActive(Math.min(3,Math.max(0,Math.floor((e.detail-.08)/.92*4))));window.addEventListener('company:progress',update);return()=>window.removeEventListener('company:progress',update);},[timeline]);
+ const labels=['Who we are','Global reach','Our services','Client work'];
+ const panels=[h(CompanyIntro,{pinned}),h(GlobalReach),h(Expertise),h(ClientWork)];
+ return h('div',{ref:sequence,className:`th-company-sequence${timeline?' th-company-sequence--timeline':''}`},...panels.map((panel,i)=>h('div',{key:labels[i],className:`th-company-scene${active===i?' is-active':''}`,inert:timeline&&active!==i?'':undefined,'aria-hidden':timeline&&active!==i?true:undefined},panel)),timeline&&h('nav',{className:'th-company-nav','aria-label':'Company sections'},...labels.map((label,i)=>h('button',{type:'button',key:label,'aria-current':i===active?'step':undefined,onClick:()=>window.dispatchEvent(new CustomEvent('nav:jump',{detail:{frac:[.62,.66,.71,.76][i]}}))},h('span',null,String(i+1).padStart(2,'0')),label))));
 }
 
 export function ServiceProcess({carousel=[],bg='mesh2',card}){

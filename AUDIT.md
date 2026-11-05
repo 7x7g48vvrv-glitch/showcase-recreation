@@ -32,3 +32,17 @@ Live Stripe checkout, confirmed service prices/currency, and an enquiry submissi
 ## Supplied identity update
 
 The user-supplied Ton Haute / Est. 2013 identity replaces the draft logo. Transparent white/red variants are used for contrasting surfaces, with the standalone TH symbol in the scroll animation and favicon. Updated browser modules and style sheets carry a release query to avoid stale cached versions.
+
+## Company reach and portfolio update — 5 November 2026
+
+Re-read the supplied Canva portfolio (DAHZF0ccAgY, revision 125). Added three sections after Who we are, before the closing brief form:
+
+- Global reach: United Arab Emirates (Abu Dhabi/Dubai), India, Qatar, Russia, Australia and Saudi Arabia. Country selection displays the portfolio's corresponding LinkedIn clients. These are client locations, not claimed office addresses.
+- Services: 14 existing service chapters grouped into Build & launch, Grow & create and Explore & innovate. Every link opens the original animated chapter interface.
+- Client work: 23 distinct brand names, filterable to 12 social media entries and 15 performance marketing entries; nine LinkedIn entries have their own filter. Names are typeset; no invented client logos or performance claims.
+
+Extended the desktop company portion of the pinned scroll timeline by 600 viewport heights, with a piecewise progress conversion preserving the existing card/closing phase lengths. Added company section navigation and menu links. On compact devices the same sections use normal document flow with one-time entrance reveals; reduced-motion visitors receive static content.
+
+Restored the supplied white hero wordmark's masked light sweep and soft white halo. Fixed inherited white headings inside the light Who we are accordion and prevented parked service cards from obstructing the company sequence.
+
+Verified in browser: desktop company transitions via scrolling and direct navigation, country switching, all four client filters (23/12/15/9), service-to-chapter opening, mobile country navigation and absence of horizontal overflow, opening wordmark animation, and closing form visibility. Standard desktop 1280×720 and mobile 390×844 checked. Existing payment/lead submission limitations are unchanged.

@@ -21,3 +21,7 @@ The reference's compiled browser components are retained because editable origin
 ## Visual audit
 
 `dist/services/service-audit.css` bounds chapter typography and spacing on phone, tablet and desktop. It replaces the inherited oversized display-list treatment with readable deliverables, standardises body copy and CTAs, and sets correct photo fitting. The process section uses selectable steps without faded or masked text. Desktop section navigation moves directly between chapter panels. See `AUDIT.md` for validation and outstanding commercial setup.
+
+### Company portfolio sections
+
+`dist/services/company-sections.css` styles the portfolio-backed reach, service overview and client work sections in `service-ui.js`. Source: the supplied Canva portfolio, revision 125. Country names represent documented client reach, not offices. Client filters deliberately use text names instead of recreating unverified logos. The desktop timeline maps expanded scroll progress through `thLegacyProgress` / `thRawProgress` in the main bundle, preserving existing card motion. Compact and reduced-motion layouts use ordinary document flow.
