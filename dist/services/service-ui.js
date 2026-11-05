@@ -1,6 +1,6 @@
-import {RefinedReach,RefinedClients} from './portfolio-refinement.js?v=20261105-portfolio';
+import {RefinedReach,RefinedClients,Mascot} from './portfolio-refinement.js?v=20261105-journey';
 import {r as React} from '../assets/embla-Cx-87qjd.js';
-import {services} from './catalog.js?v=20261105-portfolio';
+import {services} from './catalog.js?v=20261105-journey';
 const h=React.createElement;
 const profile='https://www.canva.com/design/DAHZF0ccAgY/638SMVN9l8qUUcIxF7bW4w/view';
 const empty={name:'',email:'',company:'',phone:'',website:'',budget:'',timeline:'',brief:'',consent:false};
@@ -66,7 +66,7 @@ const practiceGroups=[
 ];
 function SceneHeading({eyebrow,title,body}){return h('header',{className:'th-scene-heading'},h('p',{className:'th-kicker'},eyebrow),h('h2',null,title),h('p',null,body));}
 function GlobalReach(){return h(RefinedReach,{countries});}
-function Expertise(){return h('section',{className:'th-editorial th-expertise'},h(SceneHeading,{eyebrow:'03 / OUR SERVICES',title:'Built for your next move.',body:'Fourteen specialist services. One connected team. Choose a service to explore its scope and delivery process.'}),h('div',{className:'th-practice-grid'},...practiceGroups.map(group=>h('article',{className:'th-practice',key:group.title},h('img',{src:`/services/photos/${group.image}.jpg`,alt:`Illustrative ${group.title.toLowerCase()} service scene`,loading:'lazy',width:1536,height:1024}),h('div',{className:'th-practice-copy'},h('h3',null,group.title),h('p',null,group.body),h('ul',null,...group.ids.map(id=>{const service=services.find(s=>s.id===`card-${id}`);return service&&h('li',{key:id},h('button',{type:'button',onClick:()=>window.dispatchEvent(new CustomEvent('card-detail:open',{detail:service}))},service.name,h('span',{'aria-hidden':true},'↗')));})))))));}
+function Expertise(){return h('section',{className:'th-editorial th-expertise'},h(SceneHeading,{eyebrow:'03 / OUR SERVICES',title:'Built for your next move.',body:'Fourteen specialist services. One connected team. Choose a service to explore its scope and delivery process.'}),h('div',{className:'th-practice-grid'},...practiceGroups.map(group=>h('article',{className:'th-practice',key:group.title},h('img',{src:`/services/photos/${group.image}.jpg`,alt:`Illustrative ${group.title.toLowerCase()} service scene`,loading:'lazy',width:1536,height:1024}),h('div',{className:'th-practice-copy'},h(Mascot,{pose:group.title==='Build & launch'?'laptop':group.title==='Grow & create'?'wave':'point',className:'th-practice-mascot'}),h('h3',null,group.title),h('p',null,group.body),h('ul',null,...group.ids.map(id=>{const service=services.find(s=>s.id===`card-${id}`);return service&&h('li',{key:id},h('button',{type:'button',onClick:()=>window.dispatchEvent(new CustomEvent('card-detail:open',{detail:service}))},service.name,h('span',{'aria-hidden':true},'↗')));})))))));}
 function ClientWork(){return h(RefinedClients,{countries,socialClients,performanceClients,profile});}
 export function CompanySpotlight({pinned=false,timeline=false}){
  const [active,setActive]=React.useState(0);const sequence=React.useRef(null);
@@ -74,7 +74,7 @@ export function CompanySpotlight({pinned=false,timeline=false}){
  React.useEffect(()=>{if(!timeline)return;const update=e=>setActive(Math.min(3,Math.max(0,Math.floor((e.detail-.08)/.92*4))));window.addEventListener('company:progress',update);return()=>window.removeEventListener('company:progress',update);},[timeline]);
  const labels=['Who we are','Global reach','Our services','Client work'];
  const panels=[h(CompanyIntro,{pinned}),h(GlobalReach),h(Expertise),h(ClientWork)];
- return h('div',{ref:sequence,className:`th-company-sequence${timeline?' th-company-sequence--timeline':''}`},...panels.map((panel,i)=>h('div',{key:labels[i],className:`th-company-scene${active===i?' is-active':''}`,inert:timeline&&active!==i?'':undefined,'aria-hidden':timeline&&active!==i?true:undefined},panel)),timeline&&h('nav',{className:'th-company-nav','aria-label':'Company sections'},...labels.map((label,i)=>h('button',{type:'button',key:label,'aria-current':i===active?'step':undefined,onClick:()=>window.dispatchEvent(new CustomEvent('nav:jump',{detail:{frac:[.62,.66,.71,.76][i]}}))},h('span',null,String(i+1).padStart(2,'0')),label))));
+ return h('div',{ref:sequence,className:`th-company-sequence${timeline?' th-company-sequence--timeline':''}`},...panels.map((panel,i)=>h('div',{key:labels[i],className:`th-company-scene${active===i?' is-active':''}`,inert:timeline&&active!==i?'':undefined,'aria-hidden':timeline&&active!==i?true:undefined},panel)),timeline&&h('nav',{className:'th-company-nav','aria-label':'Company sections'},...labels.map((label,i)=>h('button',{type:'button',key:label,'aria-current':i===active?'step':undefined,onClick:()=>window.dispatchEvent(new CustomEvent('nav:jump',{detail:{frac:[.62,.653,.71,.76][i]}}))},h('span',null,String(i+1).padStart(2,'0')),label))));
 }
 
 export function ServiceProcess({carousel=[],bg='mesh2',card}){

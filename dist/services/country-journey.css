@@ -1,0 +1,51 @@
+/* Landmark chapters share the existing company timeline on desktop. */
+.th-country-journey{position:relative;height:600svh;background:#08090a;color:#fff}
+.th-country-screen{position:sticky;top:0;height:100svh;min-height:600px;overflow:hidden;isolation:isolate;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:100px clamp(24px,6vw,110px) 170px}
+.th-company-sequence--timeline .th-country-journey{height:100%}
+.th-company-sequence--timeline .th-country-screen{position:relative;height:100%;min-height:0}
+.th-country-landscapes,.th-country-landscape,.th-country-shade{position:absolute;inset:0;z-index:-3;pointer-events:none}
+.th-country-landscape{z-index:0;opacity:0;transform:scale(1.065);transition:opacity .8s ease,transform 1.4s cubic-bezier(.2,.7,.2,1)}
+.th-country-landscape.is-active{opacity:1;transform:scale(1)}
+.th-country-landscape img{width:100%;height:100%;object-fit:cover;object-position:var(--place-position,center)}
+.th-country-shade{z-index:-2;background:linear-gradient(90deg,rgba(3,7,13,.88),rgba(3,7,13,.55) 40%,rgba(3,7,13,.12) 80%),linear-gradient(0deg,#080b12 0%,transparent 50%,#080b1266 100%)}
+.th-journey-heading{position:absolute;left:clamp(24px,6vw,110px);top:clamp(88px,11vh,120px);right:100px}
+.th-journey-heading .th-kicker{font-size:11px;letter-spacing:.2em;color:#ff9ba5;margin:0 0 10px}
+.th-journey-heading>p:last-child{font-size:15px;color:#ffffffb5;margin:0}
+.th-country-stories{position:relative;max-width:760px;margin-top:60px}
+.th-country-story{animation:th-country-arrive .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes th-country-arrive{from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:translateY(0)}}
+.th-presence-label{display:flex;align-items:center;gap:10px;font-size:10px;letter-spacing:.18em;color:#fff;margin:0 0 18px}
+.th-presence-label>span{width:7px;height:7px;border-radius:50%;background:#ff4057;box-shadow:0 0 0 5px #ff405724}
+.th-country-story h2{font-size:clamp(52px,6.5vw,108px);font-weight:400;line-height:.98;letter-spacing:-.055em;color:#fff;margin:0 0 22px;max-width:750px;text-wrap:balance;text-shadow:0 3px 30px #0004}
+.th-country-landmark{font-size:clamp(14px,1.2vw,18px);color:#e1e4e8;margin:0 0 32px}
+.th-country-relationship{border-left:2px solid #f13950;padding:0 0 0 18px}
+.th-country-relationship>p{font-size:12px;color:#d1d5dc;margin:0 0 11px}
+.th-country-relationship ul{list-style:none;display:flex;flex-wrap:wrap;gap:7px 20px;padding:0;margin:0;max-width:570px}
+.th-country-relationship li{color:#fff;font-size:15px}
+.th-country-story .th-presence-note{font-size:11px;color:#c7cbd2;margin:20px 0 0;max-width:450px}
+.th-journey-guide{position:absolute;right:clamp(28px,7vw,130px);bottom:185px;width:clamp(150px,20vw,285px);text-align:center}
+.th-journey-guide>span:last-child{display:block;color:#fff;font-size:12px;letter-spacing:.03em;margin-top:-8px;text-shadow:0 2px 6px #000}
+.th-mascot{position:relative;display:block;aspect-ratio:1;width:100%;overflow:hidden;pointer-events:none}
+.th-mascot img{position:absolute;inset:0 auto auto 0;width:300%;height:auto;max-width:none;display:block;filter:drop-shadow(0 12px 14px #0003)}
+.th-mascot--point img{transform:translateX(-33.333333%)}
+.th-mascot--laptop img{transform:translateX(-66.666667%)}
+.th-country-destinations{position:absolute;left:clamp(24px,6vw,110px);right:clamp(24px,6vw,110px);bottom:105px;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:16px}
+.th-country-destinations button{position:relative;background:transparent;border:0;border-top:1px solid #ffffff54;padding:13px 0 8px;display:flex;gap:14px;align-items:center;color:#d6d9df;font:inherit;font-size:14px;cursor:pointer;text-align:left;transition:color .2s}
+.th-country-destinations button i{position:absolute;left:0;right:0;top:-1px;height:2px;background:#f33750;transform:scaleX(0);transform-origin:left;transition:transform .4s ease}
+.th-country-destinations button[aria-pressed=true]{color:#fff}
+.th-country-destinations button[aria-pressed=true] i{transform:scaleX(1)}
+.th-destination-count{font-size:10px;color:#c2c6ce}
+.th-country-destinations button:hover{color:#ff97a5}
+.th-country-destinations button:focus-visible{outline:2px solid #fff;outline-offset:5px}
+.th-journey-footer{position:absolute;left:clamp(24px,6vw,110px);right:clamp(24px,6vw,110px);bottom:65px;display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:11px;color:#c4c8d0}
+.th-journey-footer a{color:#c4c8d0;text-decoration:none}
+.th-journey-footer a:hover{text-decoration:underline;color:#fff}
+.th-practice-copy{position:relative}
+.th-practice-mascot{float:right;width:78px;margin:-10px -4px 0 5px}
+@media(max-height:760px) and (min-width:1024px){.th-country-screen{padding-top:85px;padding-bottom:150px}.th-journey-heading{top:85px}.th-country-stories{margin-top:45px}.th-country-story h2{font-size:clamp(48px,5.7vw,82px);margin-bottom:16px}.th-country-landmark{margin-bottom:22px}.th-journey-guide{width:190px;bottom:165px}.th-country-destinations{bottom:90px}.th-journey-footer{bottom:50px}}
+@media(max-width:1023.98px){.th-country-screen{min-height:0;padding-bottom:210px}.th-country-stories{max-width:75%;margin-top:25px}.th-country-story h2{font-size:clamp(46px,8vw,80px)}.th-journey-guide{right:15px;bottom:190px;width:180px}.th-journey-heading{top:85px}.th-country-destinations{bottom:120px}.th-journey-footer{bottom:80px}.th-country-journey{height:600svh}}
+@media(max-width:560px){.th-country-screen{padding:125px 24px 205px;justify-content:center}.th-journey-heading{left:24px;right:24px;top:82px}.th-journey-heading>p:last-child{font-size:12px}.th-country-stories{max-width:100%;margin-top:0}.th-country-story h2{font-size:clamp(42px,11vw,64px);max-width:92%;margin-bottom:16px}.th-country-landmark{font-size:12px;max-width:80%;margin-bottom:22px}.th-country-relationship{max-width:70%;padding-left:12px}.th-country-relationship>p{font-size:11px}.th-country-relationship ul{display:grid;gap:4px}.th-country-relationship li{font-size:12px}.th-country-story .th-presence-note{max-width:66%;font-size:10px;line-height:1.4;margin-top:14px}.th-journey-guide{width:120px;right:5px;bottom:190px}.th-journey-guide>span:last-child{font-size:9px}.th-country-destinations{left:24px;right:24px;gap:9px;bottom:115px}.th-country-destinations button{gap:5px;font-size:12px;flex-direction:column;align-items:flex-start}.th-destination-count{font-size:9px}.th-journey-footer{left:24px;right:24px;bottom:75px;font-size:9px}.th-country-shade{background:linear-gradient(90deg,#03070de8,#03070d80),linear-gradient(0deg,#080b12,transparent 70%)}.th-practice-mascot{width:76px}}
+@media(max-height:680px) and (max-width:560px){.th-country-screen{padding-top:118px;padding-bottom:170px}.th-journey-heading{top:70px}.th-country-story h2{font-size:40px}.th-presence-label{margin-bottom:10px}.th-country-landmark{margin-bottom:16px}.th-journey-guide{bottom:150px;width:105px}.th-country-destinations{bottom:83px}.th-journey-footer{bottom:48px}}
+@media(prefers-reduced-motion:reduce){.th-country-journey{height:auto;min-height:100svh}.th-country-screen{position:relative}.th-country-landscape,.th-country-story,.th-country-destinations button i{animation:none;transition:none;transform:none}.th-country-landscape:not(.is-active){opacity:0}.th-country-destinations button i{transform:scaleX(0)}.th-country-destinations button[aria-pressed=true] i{transform:scaleX(1)}}
+
+@media(min-width:1024px) and (prefers-reduced-motion:no-preference){.morph__pin-height{height:2200vh}}

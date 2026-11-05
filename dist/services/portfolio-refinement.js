@@ -5,16 +5,45 @@ function useScrollSelection(start,end,count,set){
  React.useEffect(()=>{const update=e=>{if(matchMedia('(prefers-reduced-motion:reduce)').matches||e.detail<start||e.detail>end)return;const next=Math.min(count-1,Math.floor((e.detail-start)/(end-start)*count));if(next!==previous.current){previous.current=next;set(next);}};window.addEventListener('company:progress',update);return()=>window.removeEventListener('company:progress',update);},[start,end,count,set]);
 }
 function light(e){if(matchMedia('(pointer:coarse), (prefers-reduced-motion:reduce)').matches)return;const r=e.currentTarget.getBoundingClientRect();e.currentTarget.style.setProperty('--light-x',`${(e.clientX-r.left)/r.width*100}%`);e.currentTarget.style.setProperty('--light-y',`${(e.clientY-r.top)/r.height*100}%`);}
-const points=[[10,37],[33,9],[74,13],[91,52],[66,85],[25,81]];
-export function RefinedReach({countries}){
- const [active,setActive]=React.useState(0);useScrollSelection(.31,.54,countries.length,setActive);const c=countries[active];
- return h('section',{className:'th-editorial th-reach th-orbital-reach','aria-labelledby':'th-reach-title'},
- h('header',{className:'th-refined-heading'},h('p',{className:'th-kicker'},'02 / GLOBAL CLIENT REACH'),h('h2',{id:'th-reach-title'},'Different places.',h('br'),'One connected approach.'),h('p',null,'Client relationships across six countries. Connected through technology, strategy and creative thinking.')),
- h('div',{className:'th-reach-showroom'},h('div',{className:'th-location-orbit','aria-label':'Choose a client country'},h('div',{className:'th-orbit-halo','aria-hidden':true}),h('svg',{viewBox:'0 0 600 360',className:'th-orbit-lines','aria-hidden':true},h('ellipse',{cx:300,cy:180,rx:226,ry:113,transform:'rotate(-12 300 180)',fill:'none',stroke:'#ffffff22'}),h('ellipse',{cx:300,cy:180,rx:160,ry:147,transform:'rotate(30 300 180)',fill:'none',stroke:'#ffffff0c'}),...points.map(([x,y],i)=>h('path',{key:i,d:`M300 180 Q${x*6} 180 ${x*6} ${y*3.6}`,fill:'none',stroke:i===active?'#d63148':'#ffffff0c',strokeWidth:i===active?1.5:1}))),h('div',{className:'th-orbit-centre','aria-hidden':true},h('span',{key:c.code},c.code),h('small',null,'CONNECTED / 06')),
- ...countries.map((country,i)=>h('button',{type:'button',key:country.code,className:`th-location-node${i===active?' is-active':''}`,style:{left:`${points[i][0]}%`,top:`${points[i][1]}%`},'aria-pressed':i===active,onClick:()=>setActive(i)},h('span',{className:'th-node-light','aria-hidden':true}),country.name))),
- h('article',{className:'th-reach-spotlight',onPointerMove:light,'aria-live':'polite'},h('div',{className:'th-reflective-edge','aria-hidden':true}),h('div',{className:'th-reach-label'},h('p',{className:'th-kicker'},'IN OUR LINKEDIN PORTFOLIO'),h('span',null,`${String(active+1).padStart(2,'0')} / 06`)),h('div',{key:c.code,className:'th-location-copy'},h('h3',null,c.location),h('ul',null,...c.people.map(name=>h('li',{key:name},h('span',{'aria-hidden':true},'↗'),name)))),h('div',{className:'th-country-progress','aria-hidden':true},...countries.map((country,i)=>h('span',{key:country.code,className:i===active?'is-active':''}))),h('p',{className:'th-source-note'},'Client locations featured in the company portfolio.'))),
- h('footer',{className:'th-refined-footer'},h('span',null,'Choose a location to explore.'),h('span',null,'Client reach · UAE, India, Qatar, Russia, Australia & Saudi Arabia')));
+const landmarks={
+ AE:{label:'Dubai skyline · Burj Khalifa',position:'50% 45%'},
+ IN:{label:'Agra · Taj Mahal',position:'50% 55%'},
+ QA:{label:'Doha · West Bay skyline',position:'50% 50%'},
+ RU:{label:'Moscow · Saint Basil’s Cathedral',position:'50% 40%'},
+ AU:{label:'Sydney · Opera House & Harbour Bridge',position:'50% 50%'},
+ SA:{label:'Riyadh · City skyline',position:'50% 50%'}
+};
+export function Mascot({pose='wave',className=''}){
+ return h('span',{className:`th-mascot th-mascot--${pose} ${className}`,'aria-hidden':true},h('img',{src:'/brand/mascot-poses.webp',alt:'',width:2176,height:736,loading:'lazy',decoding:'async'}));
 }
+export function RefinedReach({countries}){
+ const [active,setActive]=React.useState(0),[reduced,setReduced]=React.useState(false),root=React.useRef(null);
+ useScrollSelection(.31,.54,countries.length,setActive);
+ React.useEffect(()=>{const media=matchMedia('(prefers-reduced-motion:reduce)');const change=()=>setReduced(media.matches);change();media.addEventListener('change',change);return()=>media.removeEventListener('change',change);},[]);
+ React.useEffect(()=>{
+  const el=root.current;if(!el||reduced||el.closest('.th-company-sequence--timeline'))return;
+  let frame=0;const update=()=>{frame=0;const r=el.getBoundingClientRect(),distance=el.offsetHeight-innerHeight;if(r.top<=0&&r.bottom>=innerHeight&&distance>0)setActive(Math.min(countries.length-1,Math.floor(-r.top/distance*countries.length)));};
+  const request=()=>{if(!frame)frame=requestAnimationFrame(update);};window.addEventListener('scroll',request,{passive:true});window.addEventListener('resize',request);update();
+  return()=>{cancelAnimationFrame(frame);window.removeEventListener('scroll',request);window.removeEventListener('resize',request);};
+ },[countries.length,reduced]);
+ const choose=i=>{
+  setActive(i);if(reduced)return;
+  if(root.current.closest('.th-company-sequence--timeline'))window.dispatchEvent(new CustomEvent('nav:jump',{detail:{frac:.59+.2*(.31+(i+.5)/countries.length*.23)}}));
+  else{const el=root.current;window.scrollTo({top:scrollY+el.getBoundingClientRect().top+(el.offsetHeight-innerHeight)*(i+.5)/countries.length,behavior:'smooth'});}
+ };
+ const c=countries[active];
+ return h('section',{ref:root,className:'th-country-journey th-reach','aria-label':'Global client reach'},
+  h('div',{className:'th-country-screen'},
+   h('div',{className:'th-country-landscapes','aria-hidden':true},...countries.map((country,i)=>h('div',{key:country.code,className:`th-country-landscape${i===active?' is-active':''}`,style:{'--place-position':landmarks[country.code].position}},h('img',{src:`/places/${country.code.toLowerCase()}.webp`,alt:'',width:1920,height:1280,loading:i<2?'eager':'lazy',decoding:'async'})))),
+   h('div',{className:'th-country-shade','aria-hidden':true}),
+   h('header',{className:'th-journey-heading'},h('p',{className:'th-kicker'},'02 / ACROSS BORDERS'),h('p',null,'Different places. One connected team.')),
+   h('div',{className:'th-country-stories','aria-live':'polite','aria-atomic':true},h('article',{className:'th-country-story',key:c.code},h('p',{className:'th-presence-label'},h('span',{'aria-hidden':true}),'OUR CLIENT REACH'),h('h2',null,c.name),h('p',{className:'th-country-landmark'},landmarks[c.code].label),h('div',{className:'th-country-relationship'},h('p',null,'Connected through our work.'),h('ul',null,...c.people.map(name=>h('li',{key:name},name)))),h('p',{className:'th-presence-note'},'Client relationships featured in our company portfolio.'))),
+   h('div',{className:'th-journey-guide'},h(Mascot,{pose:'point'}),h('span',null,'Good ideas travel.')),
+   h('nav',{className:'th-country-destinations','aria-label':'Choose a country'},...countries.map((country,i)=>h('button',{key:country.code,type:'button','aria-label':`Show ${country.name}`,'aria-pressed':active===i,onClick:()=>choose(i)},h('span',{className:'th-destination-count'},String(i+1).padStart(2,'0')),h('span',null,country.code),h('i',{'aria-hidden':true})))),
+   h('footer',{className:'th-journey-footer'},h('span',{className:'th-journey-scroll'},reduced?'Choose a country above':'Scroll to explore ↓'),h('span',null,`${String(active+1).padStart(2,'0')} / ${String(countries.length).padStart(2,'0')}`),h('a',{href:'/places/credits.html',target:'_blank',rel:'noopener noreferrer'},'Photography credits ↗'))
+  ));
+}
+
 function workTypes(name,social,performance){const labels=[];if(social.includes(name))labels.push('Social media management');if(performance.includes(name))labels.push('Performance marketing');if(!labels.length)labels.push('LinkedIn management');return labels;}
 export function RefinedClients({countries,socialClients,performanceClients,profile}){
  const [filter,setFilter]=React.useState('All brands'),[active,setActive]=React.useState(0);
