@@ -25,3 +25,6 @@ The reference's compiled browser components are retained because editable origin
 ### Company portfolio sections
 
 `dist/services/company-sections.css` styles the portfolio-backed reach, service overview and client work sections in `service-ui.js`. Source: the supplied Canva portfolio, revision 125. Country names represent documented client reach, not offices. Client filters deliberately use text names instead of recreating unverified logos. The desktop timeline maps expanded scroll progress through `thLegacyProgress` / `thRawProgress` in the main bundle, preserving existing card motion. Compact and reduced-motion layouts use ordinary document flow.
+
+## MM — Mate to Matter
+The mascot introduction follows Global Reach. `dist/services/meet-mm.js` and `meet-mm.css` provide three interactive explanation stages with the supplied laptop pose. This is a brand introduction, not a live business-analysis service. Desktop timeline boundaries preserve the full country journey, then introduce MM before services and clients. Mobile uses normal stacked flow; reduced motion disables the decorative animations.
