@@ -1,0 +1,50 @@
+{
+  "wordmark-white": {
+    "src": "/brand/wordmark-white.png",
+    "width": 2172,
+    "height": 724,
+    "viewBox": [
+      125,
+      90,
+      1946,
+      558
+    ],
+    "transparentFraction": 0.739
+  },
+  "wordmark-red": {
+    "src": "/brand/wordmark-red.png",
+    "width": 2098,
+    "height": 749,
+    "viewBox": [
+      141,
+      111,
+      1849,
+      573
+    ],
+    "transparentFraction": 0.823
+  },
+  "mark-white": {
+    "src": "/brand/mark-white.png",
+    "width": 1261,
+    "height": 1247,
+    "viewBox": [
+      153,
+      85,
+      956,
+      1100
+    ],
+    "transparentFraction": 0.501
+  },
+  "mark-red": {
+    "src": "/brand/mark-red.png",
+    "width": 1286,
+    "height": 1223,
+    "viewBox": [
+      206,
+      116,
+      874,
+      989
+    ],
+    "transparentFraction": 0.709
+  }
+}

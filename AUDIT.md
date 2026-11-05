@@ -27,4 +27,8 @@ Audit pass: November 5, 2026.
 
 ## Still awaiting company/commercial setup
 
-Live Stripe checkout, confirmed service prices/currency, an enquiry submission destination and the official logo file remain outstanding. The booking brief is a draft/review/download flow; it does not claim to send an enquiry, confirm a booking or collect payment. This audit does not enable payment or change the company's commercial terms.
+Live Stripe checkout, confirmed service prices/currency, and an enquiry submission destination remain outstanding. The booking brief is a draft/review/download flow; it does not claim to send an enquiry, confirm a booking or collect payment. This audit does not enable payment or change the company's commercial terms.
+
+## Supplied identity update
+
+The user-supplied Ton Haute / Est. 2013 identity replaces the draft logo. Transparent white/red variants are used for contrasting surfaces, with the standalone TH symbol in the scroll animation and favicon. Updated browser modules and style sheets carry a release query to avoid stale cached versions.

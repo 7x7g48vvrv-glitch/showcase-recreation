@@ -1,5 +1,5 @@
 import {r as React} from '../assets/embla-Cx-87qjd.js';
-import {services} from './catalog.js';
+import {services} from './catalog.js?v=20261105-brand';
 const h=React.createElement;
 const profile='https://www.canva.com/design/DAHZF0ccAgY/638SMVN9l8qUUcIxF7bW4w/view';
 const empty={name:'',email:'',company:'',phone:'',website:'',budget:'',timeline:'',brief:'',consent:false};

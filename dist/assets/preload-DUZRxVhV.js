@@ -1,1 +1,1 @@
-import{P as o,a as t,b as n}from"./img-iVdzD8A1.js";const e="42vw",m=[240,360,480,600,720,840,960];for(const c of o){if(!c.img)continue;const s=new Image;s.fetchPriority="low";const i=t(c.img,m);i&&(s.sizes=e,s.srcset=i),s.src=n(c.img,{width:720})}
+import{P as o,a as t,b as n}from"./img-iVdzD8A1.js?v=20261105-brand";const e="42vw",m=[240,360,480,600,720,840,960];for(const c of o){if(!c.img)continue;const s=new Image;s.fetchPriority="low";const i=t(c.img,m);i&&(s.sizes=e,s.srcset=i),s.src=n(c.img,{width:720})}
