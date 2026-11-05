@@ -16,7 +16,7 @@ Each service has a booking CTA, brief form and review step. Downloading a brief 
 
 Serve `dist/` with a static web server. No application build/install is needed. Vercel project `showcase-recreation-deploy` in `accenous-integrals1` deploys the GitHub `main` branch with `dist` as output. Do not put payment secrets in browser files.
 
-The reference's compiled browser components are retained because editable original components were not available. `dist/assets/index-D9elqclh.js` imports the service catalog and custom company/brief UI. `CardDetail-CNoTyG-_.js` retains the chapter shell and imports the booking modal. Existing stock intro scroll-sequence footage is retained. Lead submission to the original company's Marketo account is disabled, and the old integrations panel and reference product content are no longer rendered.
+The reference's compiled browser components are retained because editable original components were not available. `dist/assets/index-D9elqclh.js` imports the service catalog and custom company/brief UI. `CardDetail-CNoTyG-_.js` retains the chapter shell and imports the booking modal. The intro uses the supplied founder video (`dist/brand/founder-turn.mp4`), sampled into 83 WebP frames in `dist/frames/tonhaute-turn-v1/`. The existing GSAP canvas timeline scrubs these frames on scroll; the preload paths match this versioned directory. Audio is not played. Lead submission to the original company's Marketo account is disabled, and the old integrations panel and reference product content are no longer rendered.
 
 ## Visual audit
 
